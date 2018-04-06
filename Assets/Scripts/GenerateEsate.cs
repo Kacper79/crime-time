@@ -11,6 +11,7 @@ public class GenerateEsate : MonoBehaviour {
 	public GameObject cloneObj;
 	// Use this for initialization
 	void Start () {
+		startPoint = gameObject;
 		for (int i = 1; i <= flatCount; i++) {
 			float x = startPoint.transform.position.x + i * offsetX; //+ (i - 1) * gap;
 			float y = startPoint.transform.position.y + i * offsetY + i * gap;
@@ -20,6 +21,6 @@ public class GenerateEsate : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 }
