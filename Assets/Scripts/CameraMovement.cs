@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour {
 	public GameObject cam;
-	public Camera c;
 	public float u = 0.33f;
 	void Start(){
-		 c = GetComponent<Camera>();
+
 	}
 
 	void Update(){
