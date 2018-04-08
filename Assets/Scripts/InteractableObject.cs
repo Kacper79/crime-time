@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InteractableObject : MonoBehaviour {
 	public bool b = false;
 	public GameObject panel;
-
+ 
 	public void OnMouseDown(){
 		if(b == false){
 			GeneratePanelForBuilding (gameObject);
