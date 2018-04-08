@@ -31304,6 +31304,118 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1415616956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1415616959}
+  - component: {fileID: 1415616958}
+  - component: {fileID: 1415616957}
+  m_Layer: 0
+  m_Name: MainBoard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1415616957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1415616956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd52411ccc1f840f4b9fe1b1a4e1194c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  size: 3
+  road: {fileID: 1292668126168532, guid: 92a4b8794fcdf4e278e5eb3e25a50522, type: 2}
+  roadCross: {fileID: 1047278278662220, guid: c0bc50ef018714ac68f2d4c778dbf7c2, type: 2}
+  roadThree: {fileID: 1884965570558768, guid: 5bf4e8481eddd4674a51fbab40be1421, type: 2}
+  roadCorner: {fileID: 1301984334826932, guid: 99d45ad1b2995404e9b914f43a1f7350, type: 2}
+  hospitals: 33
+  hospital: {fileID: 1148896759900048, guid: fd852ee1966a849ba883de8a4315844a, type: 2}
+  banks: 33
+  bank: {fileID: 1391383569414506, guid: f2df61ee741dacd418c3fe606dc692ea, type: 2}
+  policeStations: 33
+  police: {fileID: 1356963412939308, guid: d9306c5b999334d03bffeea42f0750f1, type: 2}
+  firefighters: 333
+  fireStation: {fileID: 1231226266489414, guid: 09e4e32ea365e4697ac4a5818fa133f4,
+    type: 2}
+  hotels: 33
+  hotel: {fileID: 1964589429088796, guid: d49cbaba9feff7147ad1db3511953dc8, type: 2}
+  mails: 33
+  mailPost: {fileID: 1405917361819076, guid: 651e20beb8d314c44a2022edab3415c7, type: 2}
+  mines: 33
+  mine: {fileID: 1238441659626604, guid: 0d30fd85100124e53b3bdbdfd9484d9b, type: 2}
+  graveyards: 33
+  grave: {fileID: 1669989352500762, guid: 0fad4481ece9b4225b055c89250f3e0e, type: 2}
+  farms: 33
+  farm: {fileID: 1885675866045902, guid: 0ceacd267103c4797b4ffbc62f08f0aa, type: 2}
+  flat: {fileID: 1120026775263838, guid: dbd4f4e2b54628e418cd255f700b445a, type: 2}
+  spots: 33
+--- !u!212 &1415616958
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1415616956}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 03f9521578053ce44bdbb3f9f6f7d545, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.56, y: 2.56}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!4 &1415616959
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1415616956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1018, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1425281015
 GameObject:
   m_ObjectHideFlags: 0

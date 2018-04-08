@@ -13,40 +13,45 @@ public class GenerateMap : MonoBehaviour {
 	public GameObject roadCorner;
 	Vector3 origin;
 
-	int hospitals;
-	GameObject hospital;
+	public int hospitals;
+	public GameObject hospital;
 
-	int banks;
-	GameObject bank;
+	public int banks;
+	public GameObject bank;
 
-	int policeStations;
-	GameObject police;
+	public int policeStations;
+	public GameObject police;
 
-	int firefighters;
-	GameObject fireStation;
+	public int firefighters;
+	public GameObject fireStation;
 
-	int hotels;
-	GameObject hotel;
+	public int hotels;
+	public GameObject hotel;
 
-	int mails;
-	GameObject mailPost;
+	public int mails;
+	public GameObject mailPost;
 
-	int mines;
-	GameObject mine;
+	public int mines;
+	public GameObject mine;
 
-	int graveyards;
-	GameObject grave;
+	public int graveyards;
+	public GameObject grave;
 
-	int farms;
-	GameObject farm;
+	public int farms;
+	public GameObject farm;
 
-	int spots;
+	public GameObject flat;
+
+	public int spots;
 
 
 	void Start () {
 		createRoads ();
 		spots = size * 12 - 4;
-
+		GenerateCorner (origin+new Vector3(size*2+3,size*2+3,0),1,1);
+		GenerateCorner (origin+new Vector3(size*2+3,size,0),1,-1);
+		GenerateCorner (origin+new Vector3(size,size*2+3,0),-1,1);
+		GenerateCorner (origin+new Vector3(size,size,0),-1,-1);
 	}
 
 	GameObject selectBuilding(){
@@ -80,6 +85,20 @@ public class GenerateMap : MonoBehaviour {
 				farms--;
 				return farm;
 			}
+		}
+	}
+
+	void GenerateCorner(Vector3 buildingOrigin, int modifierX, int modifierY){
+		for(int i= 0;i<size;i++){
+			Instantiate (selectBuilding(),buildingOrigin+new Vector3 (i*modifierX,0,0),Quaternion.identity);
+			if(i>0){
+				for(int a = 1;a<size;a++){
+					Instantiate (flat,buildingOrigin+ new Vector3(a*modifierX,i*modifierY,0),Quaternion.identity);
+				}
+			}
+		}
+		for(int i= 1;i<size;i++){
+			Instantiate (selectBuilding(),buildingOrigin+new Vector3 (0,i*modifierY,0),Quaternion.identity);
 		}
 	}
 
