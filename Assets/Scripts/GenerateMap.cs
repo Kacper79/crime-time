@@ -15,20 +15,28 @@ public class GenerateMap : MonoBehaviour {
 
 	int hospitals;
 	GameObject hospital;
+
 	int banks;
 	GameObject bank;
+
 	int policeStations;
 	GameObject police;
+
 	int firefighters;
 	GameObject fireStation;
+
 	int hotels;
 	GameObject hotel;
+
 	int mails;
 	GameObject mailPost;
+
 	int mines;
 	GameObject mine;
+
 	int graveyards;
 	GameObject grave;
+
 	int farms;
 	GameObject farm;
 
@@ -40,7 +48,41 @@ public class GenerateMap : MonoBehaviour {
 		spots = size * 12 - 4;
 
 	}
-	
+
+	GameObject selectBuilding(){
+		while(true){
+			int a = UnityEngine.Random.Range (1,9);
+			if(a == 1 && hospitals>0){
+				hospitals--;
+				return hospital;
+			}else if(a == 2 && banks>0){
+				banks--;
+				return bank;
+			}else if(a == 3 && policeStations>0){
+				policeStations--;
+				return police;
+			}else if(a == 4 && firefighters>0){
+				firefighters--;
+				return fireStation;
+			}else if(a == 5 && hotels>0){
+				hotels--;
+				return hotel;
+			}else if(a == 6 && mails>0){
+				mails--;
+				return mailPost;
+			}else if(a == 7 && mines>0){
+				mines--;
+				return mine;
+			}else if(a == 8 && graveyards>0){
+				graveyards--;
+				return grave;
+			}else if(a == 9 && farms>0){
+				farms--;
+				return farm;
+			}
+		}
+	}
+
 	void generateFour(int currentY){
 		Instantiate (road,origin+ new Vector3(0,currentY,0),Quaternion.identity);
 		Instantiate (road,origin+ new Vector3(size+1,currentY,0),Quaternion.identity);
