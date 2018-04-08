@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class DisplayPanel : MonoBehaviour {
-
+	public static  GameObject fb = null;
 	public static void enable(GameObject panel){
 		panel.SetActive (true);
 	}
@@ -12,16 +12,29 @@ public class DisplayPanel : MonoBehaviour {
 		panel.SetActive (false);
 	}
 	public static void GeneratePanelForBuilding(GameObject forBuilding,GameObject panel){
-		if(forBuilding.name.Contains("Hotel")){
-			Text[] texts = panel.GetComponents<Text> ();
-			Debug.Log (texts.Length);
+		if(forBuilding.name.Contains("Flat")){
+			fb = forBuilding;
+			Text[] texts = panel.GetComponentsInChildren<Text> ();
+			//Debug.Log (texts.Length);
 			texts [0].text = "Flats";
 			texts [1].text = "Size <b>"+forBuilding.GetComponent<FlatMechanics>().size+"</b>";
 			texts [2].text = "Eqipment <b>"+forBuilding.GetComponent<FlatMechanics>().equpment+"</b>";
 			texts [3].text = "isTaken <b>"+forBuilding.GetComponent<FlatMechanics>().isTaken+"</b>";
-			Button button = panel.GetComponent<Button> ();
-			button.GetComponentInChildren<Text> ().text = "Rent criminal";
+			texts [4].text = "Upgrade Size";
+			texts [5].text = "Upgrade Equipment";
+			texts [6].text = "Rent Criminal";
+			Button[] buttons = panel.GetComponentsInChildren <Button>();
+			buttons [0].onClick.AddListener (flatb1);
+			buttons [1].onClick.AddListener (flatb2);
 		}
 	}
+	public static void flatb1(){
+		Debug.Log("Flat 1st button");
+		fb.GetComponent<FlatMechanics> ().UpgradeSize ();
+	}
+	public static void flatb2(){
+		fb.GetComponent<FlatMechanics> ().UpgradeEquipment ();
+	}
+
 		
 }
