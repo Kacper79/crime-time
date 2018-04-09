@@ -17,10 +17,10 @@ public class MoneyIndicator : MonoBehaviour {
 	void Update () {
 		text.text = "" + cash;
 	}
-	void increaseCash(int amount){
+	public void increaseCash(int amount){
 		cash = cash + amount;
 	}
-	void decreaseCash(int amount){
+	public void decreaseCash(int amount){
 		cash = cash - amount;
 	}
 }

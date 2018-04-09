@@ -2141,7 +2141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e80eb90183b0a449af10ff3718807b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cash: 20000
+  cash: 200000
   text: {fileID: 89166029}
 --- !u!1 &96759811
 GameObject:
@@ -50741,6 +50741,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 593633504}
     m_Modifications:
+    - target: {fileID: 114861669734411614, guid: 5cdc8762027c74449a75eb047afd114f,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224602290773656998, guid: 5cdc8762027c74449a75eb047afd114f,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -50831,9 +50836,20 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1521948163980384, guid: 5cdc8762027c74449a75eb047afd114f, type: 2}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 114861669734411614, guid: 5cdc8762027c74449a75eb047afd114f,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114861669734411614, guid: 5cdc8762027c74449a75eb047afd114f,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114861669734411614, guid: 5cdc8762027c74449a75eb047afd114f,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5cdc8762027c74449a75eb047afd114f, type: 2}

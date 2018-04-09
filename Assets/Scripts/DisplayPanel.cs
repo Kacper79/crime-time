@@ -7,9 +7,15 @@ public class DisplayPanel : MonoBehaviour {
 	public static  GameObject fb = null;
 	public static void enable(GameObject panel){
 		panel.SetActive (true);
+
+
 	}
 	public static void disable(GameObject panel){
 		panel.SetActive (false);
+		Button[] buttons = panel.GetComponentsInChildren <Button>();
+		buttons [0].onClick.RemoveListener (flatb1);
+		buttons [1].onClick.RemoveListener (flatb2);
+
 	}
 	public static void GeneratePanelForBuilding(GameObject forBuilding,GameObject panel){
 		if(forBuilding.name.Contains("Flat")){
@@ -17,9 +23,9 @@ public class DisplayPanel : MonoBehaviour {
 			Text[] texts = panel.GetComponentsInChildren<Text> ();
 			//Debug.Log (texts.Length);
 			texts [0].text = "Flats";
-			texts [1].text = "Size <b>"+forBuilding.GetComponent<FlatMechanics>().size+"</b>";
-			texts [2].text = "Eqipment <b>"+forBuilding.GetComponent<FlatMechanics>().equpment+"</b>";
-			texts [3].text = "isTaken <b>"+forBuilding.GetComponent<FlatMechanics>().isTaken+"</b>";
+			texts [1].text = "Size <b>"+fb.GetComponent<FlatMechanics>().size+"</b>";
+			texts [2].text = "Eqipment <b>"+fb.GetComponent<FlatMechanics>().equpment+"</b>";
+			texts [3].text = "isTaken <b>"+fb.GetComponent<FlatMechanics>().isTaken+"</b>";
 			texts [4].text = "Upgrade Size";
 			texts [5].text = "Upgrade Equipment";
 			texts [6].text = "Rent Criminal";

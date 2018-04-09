@@ -18,7 +18,7 @@ public class InteractableObject : MonoBehaviour {
 		}
 
 	}
-	void GeneratePanelForBuilding(GameObject building){
+	public void GeneratePanelForBuilding(GameObject building){
 		DisplayPanel.GeneratePanelForBuilding (building,panel);
 		//panel.GetComponent<RectTransform> ().SetPositionAndRotation (building.GetComponent<RectTransform> ().position,Quaternion.identity);
 		//building.GetComponent<RectTransform> ().SetPositionAndRotation (new Vector3(),Quaternion.identity);

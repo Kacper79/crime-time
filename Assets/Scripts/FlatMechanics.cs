@@ -24,23 +24,24 @@ public class FlatMechanics : MonoBehaviour {
 	// Update is called once per frame
 	public void UpgradeSize() {
 		if (size <= 5) {
-			if(size == 1 && uacc >= s2uc){
-				uacc =- s2uc;
-				size++;
-			}
-			if(size == 2 && uacc >= s3uc){
-				uacc =- s3uc;
+			Debug.Log ("B"+size);
+			if(size == 4 && uacc >= s5uc){
+				moneyObject.GetComponent<MoneyIndicator> ().decreaseCash (s5uc);
 				size++;
 			}
 			if(size == 3 && uacc >= s4uc){
-				uacc =- s4uc;
+				moneyObject.GetComponent<MoneyIndicator> ().decreaseCash (s4uc);
 				size++;
 			}
-			if(size == 4 && uacc >= s5uc){
-				uacc =- s5uc;
+			if(size == 2 && uacc >= s3uc){
+				moneyObject.GetComponent<MoneyIndicator> ().decreaseCash (s3uc);
 				size++;
 			}
-
+			if(size == 1 && uacc >= s2uc){
+				moneyObject.GetComponent<MoneyIndicator> ().decreaseCash (s2uc);
+				size++;
+			}
+			Debug.Log ("A"+size);
 		} else {
 			Debug.Log ("Max size is 5 you can't upgrade more.Seems like you very prestige owner");
 		}
