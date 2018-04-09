@@ -52,6 +52,10 @@ public class GenerateMap : MonoBehaviour {
 		GenerateCorner (origin+new Vector3(size*2+3,size,0),1,-1);
 		GenerateCorner (origin+new Vector3(size,size*2+3,0),-1,1);
 		GenerateCorner (origin+new Vector3(size,size,0),-1,-1);
+		GenerateMiddle (origin + new Vector3(size*2+3,size+2,0),0,1,1,1);
+		GenerateMiddle (origin + new Vector3(size*2+1,size*2+3,0),-1,0,1,1);
+		//GenerateMiddle (origin + new Vector3(size,size*2+1,0),0,-1);
+		//GenerateMiddle (origin + new Vector3(size*2+1,size,0),-1,0);
 	}
 
 	GameObject selectBuilding(){
@@ -85,6 +89,26 @@ public class GenerateMap : MonoBehaviour {
 				farms--;
 				return farm;
 			}
+		}
+	}
+
+	void GenerateMiddle(Vector3 buildingOrigin, int modifierX, int modifierY,int flatX, int flatY){
+		for(int i = 0;i<size;i++){
+			Instantiate (selectBuilding (),buildingOrigin+new Vector3(i*modifierX,i*modifierY,0),Quaternion.identity);
+
+		}
+
+		/*for(int a = 1;a<size;a++){
+			for(int i = 1;i<=size;i++){
+				Instantiate (flat,buildingOrigin+new Vector3(a*flatX,i*flatY,0),Quaternion.identity);
+			}
+
+		}*/
+		for(int i= 0;i<size;i++){
+				for(int a = 1;a<size;a++){
+					Instantiate (flat,buildingOrigin+ new Vector3(a*flatX,i*flatY,0),Quaternion.identity);
+				}
+			
 		}
 	}
 
