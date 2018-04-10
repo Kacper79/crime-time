@@ -37071,7 +37071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd52411ccc1f840f4b9fe1b1a4e1194c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 3
+  size: 15
   road: {fileID: 1292668126168532, guid: 92a4b8794fcdf4e278e5eb3e25a50522, type: 2}
   roadCross: {fileID: 1047278278662220, guid: c0bc50ef018714ac68f2d4c778dbf7c2, type: 2}
   roadThree: {fileID: 1884965570558768, guid: 5bf4e8481eddd4674a51fbab40be1421, type: 2}
@@ -50850,7 +50850,8 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11500000, guid: 4d5df8f062e493b4dab4a87a160e786a,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5cdc8762027c74449a75eb047afd114f, type: 2}
   m_IsPrefabParent: 0

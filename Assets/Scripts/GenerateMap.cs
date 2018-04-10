@@ -52,10 +52,31 @@ public class GenerateMap : MonoBehaviour {
 		GenerateCorner (origin+new Vector3(size*2+3,size,0),1,-1);
 		GenerateCorner (origin+new Vector3(size,size*2+3,0),-1,1);
 		GenerateCorner (origin+new Vector3(size,size,0),-1,-1);
-		GenerateMiddle (origin + new Vector3(size*2+3,size+2,0),0,1,1,1);
-		GenerateMiddle (origin + new Vector3(size*2+1,size*2+3,0),-1,0,1,1);
-		//GenerateMiddle (origin + new Vector3(size,size*2+1,0),0,-1);
-		//GenerateMiddle (origin + new Vector3(size*2+1,size,0),-1,0);
+		GenerateMiddle (origin + new Vector3(size*2+3,size+2,0),0,1);
+		GenerateMiddle (origin + new Vector3(size*2+1,size*2+3,0),-1,0);
+		GenerateMiddle (origin + new Vector3(size,size*2+1,0),0,-1);
+		GenerateMiddle (origin + new Vector3(size*2+1,size,0),-1,0);
+		RightFlats ();
+		LeftFlats ();
+		TopFlats ();
+		BottomFlats ();
+		GenerateCenter ();
+	}
+
+	void GenerateCenter(){
+		Vector3 centerOrigin = new Vector3 (origin.x + size + 2, origin.y + size * 2 + 1, 0);
+		for(int i = 0;i<size;i++){
+			Instantiate (selectBuilding (),centerOrigin + new Vector3(i,0,0),Quaternion.identity);
+		}
+		for(int i = 0;i<size;i++){
+			Instantiate (selectBuilding (),centerOrigin + new Vector3(i,-size+1,0),Quaternion.identity);
+		}
+		for(int i = 1;i<size;i++){
+			Instantiate (selectBuilding (),centerOrigin + new Vector3(0,-i,0),Quaternion.identity);
+		}
+		for(int i = 1;i<size;i++){
+			Instantiate (selectBuilding (),centerOrigin + new Vector3(size-1,-i,0),Quaternion.identity);
+		}
 	}
 
 	GameObject selectBuilding(){
@@ -92,24 +113,12 @@ public class GenerateMap : MonoBehaviour {
 		}
 	}
 
-	void GenerateMiddle(Vector3 buildingOrigin, int modifierX, int modifierY,int flatX, int flatY){
+	void GenerateMiddle(Vector3 buildingOrigin, int modifierX, int modifierY){
 		for(int i = 0;i<size;i++){
 			Instantiate (selectBuilding (),buildingOrigin+new Vector3(i*modifierX,i*modifierY,0),Quaternion.identity);
 
 		}
-
-		/*for(int a = 1;a<size;a++){
-			for(int i = 1;i<=size;i++){
-				Instantiate (flat,buildingOrigin+new Vector3(a*flatX,i*flatY,0),Quaternion.identity);
-			}
-
-		}*/
-		for(int i= 0;i<size;i++){
-				for(int a = 1;a<size;a++){
-					Instantiate (flat,buildingOrigin+ new Vector3(a*flatX,i*flatY,0),Quaternion.identity);
-				}
 			
-		}
 	}
 
 	void GenerateCorner(Vector3 buildingOrigin, int modifierX, int modifierY){
@@ -123,6 +132,42 @@ public class GenerateMap : MonoBehaviour {
 		}
 		for(int i= 1;i<size;i++){
 			Instantiate (selectBuilding(),buildingOrigin+new Vector3 (0,i*modifierY,0),Quaternion.identity);
+		}
+	}
+
+	void RightFlats(){
+		Vector3 startPoint = origin + new Vector3 (size - 1, size * 2 + 1, 0);
+		for(int i = 0;i<size-1;i++){
+			for(int a = 0;a<size;a++){
+				Instantiate (flat,startPoint - new Vector3(i,a,0), Quaternion.identity);
+			}
+		}
+	}
+
+	void LeftFlats(){
+		Vector3 startPoint = origin + new Vector3 (size*3+2, size*2 + 1, 0);
+		for(int i = 0;i<size-1;i++){
+			for(int a = 0;a<size;a++){
+				Instantiate (flat,startPoint - new Vector3(i,a,0), Quaternion.identity);
+			}
+		}
+	}
+
+	void TopFlats(){
+		Vector3 startPoint = origin + new Vector3 (size*2+1, size*3+2, 0);
+		for(int i = 0;i<size-1;i++){
+			for(int a = 0;a<size;a++){
+				Instantiate (flat,startPoint - new Vector3(a,i,0), Quaternion.identity);
+			}
+		}
+	}
+
+	void BottomFlats(){
+		Vector3 startPoint = origin + new Vector3 (size*2+1, size-1, 0);
+		for(int i = 0;i<size-1;i++){
+			for(int a = 0;a<size;a++){
+				Instantiate (flat,startPoint - new Vector3(a,i,0), Quaternion.identity);
+			}
 		}
 	}
 
