@@ -18,6 +18,10 @@ public class FlatMechanics : MonoBehaviour {
 	public int e5uc = 25000;
 	public int uacc;
 	public GameObject moneyObject;
+	void Start(){
+		GetComponent <Building>().type = BuildingType.Flat;
+	}
+
 	void Update(){
 		uacc = moneyObject.GetComponent<MoneyIndicator> ().cash;
 	}
@@ -73,4 +77,7 @@ public class FlatMechanics : MonoBehaviour {
 		}
 	}
 
+	void OnMouseDown(){
+		UiManager.Instance.flatUI.SetActive (!UiManager.Instance.flatUI.activeSelf);
+	}
 }

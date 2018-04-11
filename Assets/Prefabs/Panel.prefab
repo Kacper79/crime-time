@@ -148,7 +148,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1710737219418500
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,7 +233,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Property2 <b>1</b>
+  m_Text: Eqipment <b>1</b>
 --- !u!114 &114082824866036752
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -266,7 +266,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Property1 <b>1</b>
+  m_Text: Size <b>1</b>
 --- !u!114 &114109390379539592
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -299,7 +299,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Action2
+  m_Text: Upgrade Equipment
 --- !u!114 &114145026918526550
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -332,7 +332,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Action1
+  m_Text: Upgrade Size
 --- !u!114 &114222168222413814
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -392,7 +392,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BUILDING
+  m_Text: Flats
 --- !u!114 &114486222392345382
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -506,7 +506,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Property3 <b>1</b>
+  m_Text: isTaken <b>False</b>
 --- !u!114 &114796458294863654
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -662,7 +662,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Action2
+  m_Text: Rent Criminal
 --- !u!222 &222049024537480588
 CanvasRenderer:
   m_ObjectHideFlags: 1
