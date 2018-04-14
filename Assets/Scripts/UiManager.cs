@@ -9,6 +9,7 @@ public class UiManager : MonoBehaviour {
 	public Text[] FlatTexts;
 	public GameObject currentBuilding;
 	public static UiManager Instance;
+	public GameObject moneyDisplay;
 
 	void Start () {
 		Instance = this;
@@ -17,6 +18,12 @@ public class UiManager : MonoBehaviour {
 		FlatTexts [4].text = "Upgrade Size";
 		FlatTexts [5].text = "Upgrade Equipment";
 		FlatTexts [6].text = "Rent Criminal";
+	}
+
+	public void SetFlatValues(){
+		FlatTexts [1].text = "Size: " + currentBuilding.GetComponent <FlatMechanics> ().size;
+		FlatTexts [2].text = "Equipment Quality: " + currentBuilding.GetComponent <FlatMechanics> ().equipment;
+		FlatTexts [3].text = "Taken: " + currentBuilding.GetComponent <FlatMechanics> ().isTaken;
 	}
 	
 	

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FlatMechanics : MonoBehaviour {
 	public short size = 1; //Max 5
-	public short equpment = 1; //Max 5
+	public short equipment = 1; //Max 5
 	public bool isTaken = false;
 	//public int s1uc = 5000;
 	public int s2uc = 10000;
@@ -19,7 +19,7 @@ public class FlatMechanics : MonoBehaviour {
 	public int uacc;
 	public GameObject moneyObject;
 	void Start(){
-		GetComponent <Building>().type = BuildingType.Flat;
+		moneyObject = UiManager.Instance.moneyDisplay;
 	}
 
 	void Update(){
@@ -51,26 +51,26 @@ public class FlatMechanics : MonoBehaviour {
 		}
 	}
 	public void UpgradeEquipment() {
-		if (equpment <= 4) {
-			if(equpment == 0 && uacc >= e1uc){
+		if (equipment <= 4) {
+			if(equipment == 0 && uacc >= e1uc){
 				uacc =- e1uc;
-				equpment++;
+				equipment++;
 			}
-			if(equpment == 1 && uacc >= e2uc){
+			if(equipment == 1 && uacc >= e2uc){
 				uacc =- e2uc;
-				equpment++;
+				equipment++;
 			}
-			if(equpment == 2 && uacc >= e3uc){
+			if(equipment == 2 && uacc >= e3uc){
 				uacc =- e3uc;
-				equpment++;
+				equipment++;
 			}
-			if(equpment == 3 && uacc >= e4uc){
+			if(equipment == 3 && uacc >= e4uc){
 				uacc =- e4uc;
-				equpment++;
+				equipment++;
 			}
-			if(equpment == 4 && uacc >= e5uc){
+			if(equipment == 4 && uacc >= e5uc){
 				uacc =- e5uc;
-				equpment++;
+				equipment++;
 			}
 		} else {
 			Debug.Log ("Max size is 5 you can't upgrade more.Seems like you very prestige owner");
@@ -78,6 +78,8 @@ public class FlatMechanics : MonoBehaviour {
 	}
 
 	void OnMouseDown(){
+		UiManager.Instance.currentBuilding = gameObject;
+		UiManager.Instance.SetFlatValues ();
 		UiManager.Instance.flatUI.SetActive (!UiManager.Instance.flatUI.activeSelf);
 	}
 }

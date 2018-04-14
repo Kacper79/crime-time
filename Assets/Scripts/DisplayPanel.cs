@@ -24,7 +24,7 @@ public class DisplayPanel : MonoBehaviour {
 			//Debug.Log (texts.Length);
 			texts [0].text = "Flats";
 			texts [1].text = "Size <b>"+fb.GetComponent<FlatMechanics>().size+"</b>";
-			texts [2].text = "Eqipment <b>"+fb.GetComponent<FlatMechanics>().equpment+"</b>";
+			texts [2].text = "Eqipment <b>"+fb.GetComponent<FlatMechanics>().equipment+"</b>";
 			texts [3].text = "isTaken <b>"+fb.GetComponent<FlatMechanics>().isTaken+"</b>";
 			texts [4].text = "Upgrade Size";
 			texts [5].text = "Upgrade Equipment";
