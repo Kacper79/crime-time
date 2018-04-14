@@ -37207,6 +37207,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flatUI: {fileID: 252992588}
+  FlatTexts: []
+  currentBuilding: {fileID: 0}
 --- !u!1 &1425281015
 GameObject:
   m_ObjectHideFlags: 0
@@ -50906,7 +50908,7 @@ Prefab:
         type: 3}
     - target: {fileID: 1521948163980384, guid: 5cdc8762027c74449a75eb047afd114f, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5cdc8762027c74449a75eb047afd114f, type: 2}
