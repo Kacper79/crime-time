@@ -66,7 +66,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.65, y: 2.65}
+  m_Size: {x: 0.8533334, y: 0.8533334}
   m_EdgeRadius: 0
 --- !u!114 &114083995107664244
 MonoBehaviour:
@@ -93,7 +93,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 1
-  equpment: 1
+  equipment: 1
   isTaken: 0
   s2uc: 10000
   s3uc: 15000

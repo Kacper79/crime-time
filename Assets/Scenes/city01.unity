@@ -37091,6 +37091,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1415616959}
   - component: {fileID: 1415616958}
+  - component: {fileID: 1415616961}
   - component: {fileID: 1415616960}
   - component: {fileID: 1415616957}
   m_Layer: 0
@@ -37210,6 +37211,17 @@ MonoBehaviour:
   FlatTexts: []
   currentBuilding: {fileID: 0}
   moneyDisplay: {fileID: 89166027}
+--- !u!114 &1415616961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1415616956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adc64f3279ff5442dafa415e1609f642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1425281015
 GameObject:
   m_ObjectHideFlags: 0
@@ -50801,6 +50813,11 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114805777263823456, guid: 5cdc8762027c74449a75eb047afd114f,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224602290773656998, guid: 5cdc8762027c74449a75eb047afd114f,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -50905,11 +50922,60 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 11500000, guid: 4d5df8f062e493b4dab4a87a160e786a,
-        type: 3}
+      objectReference: {fileID: 1415616961}
     - target: {fileID: 1521948163980384, guid: 5cdc8762027c74449a75eb047afd114f, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114861669734411614, guid: 5cdc8762027c74449a75eb047afd114f,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpgradeSize
+      objectReference: {fileID: 0}
+    - target: {fileID: 114861669734411614, guid: 5cdc8762027c74449a75eb047afd114f,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114805777263823456, guid: 5cdc8762027c74449a75eb047afd114f,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114805777263823456, guid: 5cdc8762027c74449a75eb047afd114f,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114805777263823456, guid: 5cdc8762027c74449a75eb047afd114f,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1415616961}
+    - target: {fileID: 114805777263823456, guid: 5cdc8762027c74449a75eb047afd114f,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpgradeEquipment
+      objectReference: {fileID: 0}
+    - target: {fileID: 114805777263823456, guid: 5cdc8762027c74449a75eb047afd114f,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114017947467220844, guid: 5cdc8762027c74449a75eb047afd114f,
+        type: 2}
+      propertyPath: m_Text
+      value: Equipment <b>1</b>
+      objectReference: {fileID: 0}
+    - target: {fileID: 224387032906473920, guid: 5cdc8762027c74449a75eb047afd114f,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -25.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 224387032906473920, guid: 5cdc8762027c74449a75eb047afd114f,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 367.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5cdc8762027c74449a75eb047afd114f, type: 2}

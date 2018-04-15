@@ -25,6 +25,15 @@ public class UiManager : MonoBehaviour {
 		FlatTexts [2].text = "Equipment Quality: " + currentBuilding.GetComponent <FlatMechanics> ().equipment;
 		FlatTexts [3].text = "Taken: " + currentBuilding.GetComponent <FlatMechanics> ().isTaken;
 	}
+
+	void Update(){
+		if(currentBuilding != null){
+			FlatTexts [1].text = "Size: " + currentBuilding.GetComponent <FlatMechanics> ().size;
+			FlatTexts [2].text = "Equipment: " + currentBuilding.GetComponent <FlatMechanics> ().equipment;
+			FlatTexts [3].text = "Taken: " + currentBuilding.GetComponent <FlatMechanics> ().isTaken;
+			Debug.Log (currentBuilding.GetComponent <FlatMechanics>().equipment);
+		}
+	}
 	
 	
 }
