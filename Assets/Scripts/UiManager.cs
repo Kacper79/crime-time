@@ -27,7 +27,7 @@ public class UiManager : MonoBehaviour {
 	}
 
 	void Update(){
-		if(currentBuilding != null){
+		if(currentBuilding != null && currentBuilding.GetComponent <Building>().type == BuildingType.Flat){
 			FlatTexts [1].text = "Size: " + currentBuilding.GetComponent <FlatMechanics> ().size;
 			FlatTexts [2].text = "Equipment: " + currentBuilding.GetComponent <FlatMechanics> ().equipment;
 			FlatTexts [3].text = "Taken: " + currentBuilding.GetComponent <FlatMechanics> ().isTaken;

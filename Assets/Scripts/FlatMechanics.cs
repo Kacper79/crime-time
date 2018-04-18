@@ -83,7 +83,8 @@ public class FlatMechanics : MonoBehaviour {
 			UiManager.Instance.SetFlatValues ();
 		}else{
 			UiManager.Instance.currentBuilding = null;
+			UiManager.Instance.flatUI.SetActive (false);
 		}
-		UiManager.Instance.flatUI.SetActive (!UiManager.Instance.flatUI.activeSelf);
+		UiManager.Instance.flatUI.SetActive (true);
 	}
 }
