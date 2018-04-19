@@ -79,6 +79,7 @@ public class FlatMechanics : MonoBehaviour {
 
 	void OnMouseDown(){
 		if(UiManager.Instance.currentBuilding != gameObject){
+			UiManager.Instance.flatUI.SetActive (false);
 			UiManager.Instance.currentBuilding = gameObject;
 			UiManager.Instance.SetFlatValues ();
 		}else{

@@ -23,14 +23,14 @@ public class UiManager : MonoBehaviour {
 	public void SetFlatValues(){
 		FlatTexts [1].text = "Size: " + currentBuilding.GetComponent <FlatMechanics> ().size;
 		FlatTexts [2].text = "Equipment Quality: " + currentBuilding.GetComponent <FlatMechanics> ().equipment;
-		FlatTexts [3].text = "Taken: " + currentBuilding.GetComponent <FlatMechanics> ().isTaken;
+		FlatTexts [3].text = "Occupied:" + currentBuilding.GetComponent <FlatMechanics> ().isTaken;
 	}
 
 	void Update(){
 		if(currentBuilding != null && currentBuilding.GetComponent <Building>().type == BuildingType.Flat){
 			FlatTexts [1].text = "Size: " + currentBuilding.GetComponent <FlatMechanics> ().size;
-			FlatTexts [2].text = "Equipment: " + currentBuilding.GetComponent <FlatMechanics> ().equipment;
-			FlatTexts [3].text = "Taken: " + currentBuilding.GetComponent <FlatMechanics> ().isTaken;
+			FlatTexts [2].text = "Equipment Quality: " + currentBuilding.GetComponent <FlatMechanics> ().equipment;
+			FlatTexts [3].text = "Occupied: " + currentBuilding.GetComponent <FlatMechanics> ().isTaken;
 			Debug.Log (currentBuilding.GetComponent <FlatMechanics>().equipment);
 		}
 	}
