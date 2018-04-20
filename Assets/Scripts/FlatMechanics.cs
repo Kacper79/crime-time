@@ -75,14 +75,17 @@ public class FlatMechanics : MonoBehaviour {
 	}
 
 	void OnMouseDown(){
-		if(UiManager.Instance.currentBuilding != gameObject){
-			UiManager.Instance.flatUI.SetActive (false);
-			UiManager.Instance.currentBuilding = gameObject;
-			UiManager.Instance.SetFlatValues ();
-		}else{
-			UiManager.Instance.currentBuilding = null;
-			UiManager.Instance.flatUI.SetActive (false);
+		if(!UiManager.Instance.flatClose.animating){
+			if(UiManager.Instance.currentBuilding != gameObject){
+				UiManager.Instance.flatUI.SetActive (false);
+				UiManager.Instance.currentBuilding = gameObject;
+				UiManager.Instance.SetFlatValues ();
+			}else{
+				UiManager.Instance.currentBuilding = null;
+				UiManager.Instance.flatClose.Close ();
+			}
+			UiManager.Instance.flatUI.SetActive (true);
 		}
-		UiManager.Instance.flatUI.SetActive (true);
+
 	}
 }

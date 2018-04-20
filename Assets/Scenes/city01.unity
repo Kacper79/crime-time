@@ -19155,6 +19155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   closedObject: {fileID: 252992588}
+  animating: 0
 --- !u!114 &740694653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36018,6 +36019,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   closedObject: {fileID: 1385172385}
+  animating: 0
 --- !u!114 &1377342860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37990,6 +37992,7 @@ MonoBehaviour:
   FlatTexts: []
   currentBuilding: {fileID: 0}
   moneyDisplay: {fileID: 89166027}
+  flatClose: {fileID: 1377342859}
 --- !u!114 &1415616961
 MonoBehaviour:
   m_ObjectHideFlags: 0

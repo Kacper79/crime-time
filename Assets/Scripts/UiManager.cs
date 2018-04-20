@@ -10,6 +10,7 @@ public class UiManager : MonoBehaviour {
 	public GameObject currentBuilding;
 	public static UiManager Instance;
 	public GameObject moneyDisplay;
+	public PanelClose flatClose;
 
 	void Start () {
 		Instance = this;
