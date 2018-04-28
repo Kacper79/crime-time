@@ -50,25 +50,29 @@ public class FlatMechanics : MonoBehaviour {
 	}
 	public void UpgradeEquipment() {
 		if (equipment <= 4) {
-			if(equipment == 0 && uacc >= e1uc){
-				uacc =- e1uc;
-				equipment++;
-			}
-			if(equipment == 1 && uacc >= e2uc){
-				uacc =- e2uc;
-				equipment++;
-			}
-			if(equipment == 2 && uacc >= e3uc){
-				uacc =- e3uc;
-				equipment++;
-			}
-			if(equipment == 3 && uacc >= e4uc){
-				uacc =- e4uc;
-				equipment++;
-			}
-			if(equipment == 4 && uacc >= e5uc){
-				uacc =- e5uc;
-				equipment++;
+            if (equipment == 4 && uacc >= e5uc)
+            {
+                moneyObject.GetComponent<MoneyIndicator>().decreaseCash(e5uc);
+                equipment++;
+            }
+            if (equipment == 3 && uacc >= e4uc)
+            {
+                moneyObject.GetComponent<MoneyIndicator>().decreaseCash(e4uc);
+                equipment++;
+            }
+            if (equipment == 2 && uacc >= e3uc)
+            {
+                moneyObject.GetComponent<MoneyIndicator>().decreaseCash(e3uc);
+                equipment++;
+            }
+            if (equipment == 1 && uacc >= e2uc)
+            {
+                moneyObject.GetComponent<MoneyIndicator>().decreaseCash(e2uc);
+                equipment++;
+            }
+            if (equipment == 0 && uacc >= e1uc){
+                moneyObject.GetComponent<MoneyIndicator>().decreaseCash(e1uc);
+                equipment++;
 			}
 		} else {
 		}

@@ -35,7 +35,6 @@ public class DisplayPanel : MonoBehaviour {
 		}
 	}
 	public static void flatb1(){
-		Debug.Log("Flat 1st button");
 		fb.GetComponent<FlatMechanics> ().UpgradeSize ();
 	}
 	public static void flatb2(){

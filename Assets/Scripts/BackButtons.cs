@@ -21,12 +21,12 @@ public class BackButtons : MonoBehaviour {
             type = 2;
         }
     }
-
+    
     public void OnMouseDown()
     {
         if(type == 0)
         {
-
+            Debug.Log("Team button closed");
         }
         if(type == 1)
         {

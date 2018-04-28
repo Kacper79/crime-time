@@ -5,16 +5,21 @@ using UnityEngine;
 public class CameraMovement : MonoBehaviour {
 	public GameObject cam;
 	public float u = 0.33f;
+    public Focus focus;
 	void Start(){
 
 	}
 
 	void Update(){
-		//Res:640x480
-		double x1 = Screen.width * 0.8;//512
-		double x2 = Screen.width * 0.2;//128
-		double y1 = Screen.height * 0.8;//384
-		double y2 = Screen.height * 0.2;//96
+        //Res:640x480
+        if (focus.state != 0)
+        {
+            return;
+        }
+		double x1 = Screen.width * 0.9;//512
+		double x2 = Screen.width * 0.05;//128
+		double y1 = Screen.height * 0.9;//384
+		double y2 = Screen.height * 0.1;//96
 		Vector3 m = Input.mousePosition;
 		if(m.x <= x2){
 			//cam.transform.position.x += 1;
