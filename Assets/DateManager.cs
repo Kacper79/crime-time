@@ -35,4 +35,8 @@ public class DateManager : MonoBehaviour {
 			timeElapsed = Time.time;
 		}
 	}
+
+	void Payout (){
+		
+	}
 }

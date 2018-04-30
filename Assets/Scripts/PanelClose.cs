@@ -7,9 +7,12 @@ public class PanelClose : MonoBehaviour {
 	public GameObject closedObject;
 	Animation anim;
 	public bool animating;
+	Vector3 lastScale;
+
 
 	public void Start(){
 		anim = closedObject.GetComponent <Animation> ();
+		lastScale = closedObject.GetComponent <RectTransform> ().localScale;
 	}
 
 	public void Close(){
@@ -21,7 +24,7 @@ public class PanelClose : MonoBehaviour {
 		anim.Play ("panelTransition");
 		yield return new WaitForSeconds(1);
 		closedObject.SetActive (false);
-		closedObject.GetComponent <RectTransform>().localScale = new Vector3(0.25f,0.25f,1f);
+		closedObject.GetComponent <RectTransform>().localScale = lastScale;
 		animating = false;
 		StopCoroutine (CloseAnimation ());
 		yield return null;
