@@ -19,6 +19,7 @@ public class DisplayPanel : MonoBehaviour {
 	}
 	public static void GeneratePanelForBuilding(GameObject forBuilding,GameObject panel){
 		if(forBuilding.name.Contains("Flat")){
+            panel.SetActive(true);
 			fb = forBuilding;
 			Text[] texts = panel.GetComponentsInChildren<Text> ();
 			//Debug.Log (texts.Length);

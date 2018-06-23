@@ -19,7 +19,7 @@ public class FlatMechanics : MonoBehaviour {
 	public int uacc;
 	public GameObject moneyObject;
 	void Start(){
-        moneyObject = GameObject.Find("Canvas/TopPanel/MoneyText");
+        moneyObject = UiManager.Instance.moneyDisplay;
 	}
 
 	void Update(){

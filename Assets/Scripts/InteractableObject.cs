@@ -10,7 +10,7 @@ public class InteractableObject : MonoBehaviour {
 	public void OnMouseDown(){
 		if(b == false){
 			GeneratePanelForBuilding (gameObject);
-			DisplayPanel.enable(panel);
+			//DisplayPanel.enable(panel);
 			b = true;
 		}else{
 			DisplayPanel.disable(panel);
