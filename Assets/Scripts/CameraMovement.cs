@@ -16,8 +16,8 @@ public class CameraMovement : MonoBehaviour {
         {
             return;
         }
-		double x1 = Screen.width * 0.9;//512
-		double x2 = Screen.width * 0.05;//128
+		double x1 = Screen.width * 0.7;//512
+		double x2 = Screen.width * 0.01;//128
 		double y1 = Screen.height * 0.9;//384
 		double y2 = Screen.height * 0.1;//96
 		Vector3 m = Input.mousePosition;
