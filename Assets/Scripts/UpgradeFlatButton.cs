@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class UpgradeFlatButton : MonoBehaviour {
 
-	public void UpgradeSize(){
+	public void UpgradeSizeFlat(){
 		UiManager.Instance.currentBuilding.GetComponent <FlatMechanics>().UpgradeSize ();
 	}
 
-	public void UpgradeEquipment(){
+	public void UpgradeEquipmentFlat(){
 		UiManager.Instance.currentBuilding.GetComponent <FlatMechanics>().UpgradeEquipment ();
 	}
+    public void PurchaseActFlat()
+    {
+        UiManager.Instance.currentBuilding.GetComponent<FlatMechanics>().PurchaseAct();
+    }
 }

@@ -5,7 +5,9 @@ using UnityEngine;
 public class FlatMechanics : MonoBehaviour {
 	public short size = 1; //Max 5
 	public short equipment = 1; //Max 5
-	public bool isTaken = false;
+    public bool act = false;
+    public int occupied = 0;
+    public int maxOccupied = 2;
 	//public int s1uc = 5000;
 	public int s2uc = 10000;
 	public int s3uc = 15000;
@@ -16,6 +18,7 @@ public class FlatMechanics : MonoBehaviour {
 	public int e3uc = 15000;
 	public int e4uc = 20000;
 	public int e5uc = 25000;
+    public int apc = 100000;
 	public int uacc;
 	public GameObject moneyObject;
 	void Start(){
@@ -24,10 +27,11 @@ public class FlatMechanics : MonoBehaviour {
 
 	void Update(){
 		uacc = moneyObject.GetComponent<MoneyIndicator> ().cash;
+        maxOccupied = 2 ^ size;
 	}
 	// Update is called once per frame
 	public void UpgradeSize() {
-		if (size <= 5) {
+		if (size <= 5 && act == true) {
 			if(size == 4 && uacc >= s5uc){
 				moneyObject.GetComponent<MoneyIndicator> ().decreaseCash (s5uc);
 				size++;
@@ -49,7 +53,7 @@ public class FlatMechanics : MonoBehaviour {
 		}
 	}
 	public void UpgradeEquipment() {
-		if (equipment <= 4) {
+		if (equipment <= 4 && act == true) {
             if (equipment == 4 && uacc >= e5uc)
             {
                 moneyObject.GetComponent<MoneyIndicator>().decreaseCash(e5uc);
@@ -77,19 +81,28 @@ public class FlatMechanics : MonoBehaviour {
 		} else {
 		}
 	}
-
+    public void PurchaseAct()
+    {
+        if(act == false)
+        {
+            if (uacc >= apc)
+            {
+                moneyObject.GetComponent<MoneyIndicator>().decreaseCash(apc);
+                act = true;
+            }
+        }
+       
+    }
 	void OnMouseDown(){
-		if(!UiManager.Instance.flatClose.animating){
-			if(UiManager.Instance.currentBuilding != gameObject){
-				UiManager.Instance.flatUI.SetActive (false);
-				UiManager.Instance.currentBuilding = gameObject;
-				UiManager.Instance.SetFlatValues ();
-			}else{
-				UiManager.Instance.currentBuilding = null;
-				UiManager.Instance.flatClose.Close ();
-			}
-			UiManager.Instance.flatUI.SetActive (true);
-		}
-
-	}
+        if(UiManager.Instance.isOnceOpened() == false)
+        {
+            UiManager.Instance.currentBuilding = gameObject;
+            UiManager.Instance.flatUI.SetActive(true);
+            UiManager.Instance.SetFlatValues();
+            UiManager.Instance.setOnceOpened(true);
+        }
+		       
+    }
+    
+	
 }

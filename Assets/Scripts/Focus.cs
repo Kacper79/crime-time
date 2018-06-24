@@ -10,5 +10,9 @@ public class Focus : MonoBehaviour {
     {
         this.state = state;
     }
+    public int getState()
+    {
+        return state;
+    }
 
 }
