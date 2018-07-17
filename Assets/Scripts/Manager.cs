@@ -15,12 +15,14 @@ public class Manager : MonoBehaviour
 	{
 		if (Instance == null)
 		{
-			Instance = this;
+			Instance = this; ;
 		}
 		else if (Instance != this)
 		{
 			Destroy(gameObject);
 		}
+		state = GameState.Game;
+		cash = 100000;
 	}
 
 	public void increaseCash(int amount)

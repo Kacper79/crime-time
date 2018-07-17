@@ -3,25 +3,31 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InteractableObject : MonoBehaviour {
+public class InteractableObject : MonoBehaviour
+{
 	public bool b = false;
 	public GameObject panel;
- 
-	public void OnMouseDown(){
-		if(b == false){
-			GeneratePanelForBuilding (gameObject);
+
+	public void OnMouseDown()
+	{
+		if (b == false)
+		{
+			GeneratePanelForBuilding(gameObject);
 			DisplayPanel.enable(panel);
 			b = true;
-		}else{
+		}
+		else
+		{
 			DisplayPanel.disable(panel);
 			b = false;
 		}
 
 	}
-	public void GeneratePanelForBuilding(GameObject building){
-		DisplayPanel.GeneratePanelForBuilding (building,panel);
+	public void GeneratePanelForBuilding(GameObject building)
+	{
+		DisplayPanel.GeneratePanelForBuilding(building, panel);
 		//panel.GetComponent<RectTransform> ().SetPositionAndRotation (building.GetComponent<RectTransform> ().position,Quaternion.identity);
 		//building.GetComponent<RectTransform> ().SetPositionAndRotation (new Vector3(),Quaternion.identity);
 	}
-		
+
 }

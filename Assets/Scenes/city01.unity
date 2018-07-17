@@ -341,19 +341,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &10598321
 GameObject:
@@ -583,19 +577,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &16814337
 GameObject:
@@ -724,19 +712,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1001 &19836765
 Prefab:
@@ -1234,19 +1216,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &61894242
 GameObject:
@@ -1525,19 +1501,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &73368526
 GameObject:
@@ -1741,19 +1711,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &81724521
 GameObject:
@@ -2058,19 +2022,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &89166027
 GameObject:
@@ -2159,7 +2117,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e80eb90183b0a449af10ff3718807b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cash: 200000
   text: {fileID: 89166029}
 --- !u!1 &96759811
 GameObject:
@@ -2472,19 +2429,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!224 &137626581 stripped
 RectTransform:
@@ -2618,19 +2569,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &143325842
 GameObject:
@@ -2972,19 +2917,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &151538994
 GameObject:
@@ -3113,19 +3052,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1001 &152902349
 Prefab:
@@ -3375,19 +3308,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1001 &160005895
 Prefab:
@@ -3570,19 +3497,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &171051370
 GameObject:
@@ -3812,19 +3733,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &172922372
 GameObject:
@@ -3953,19 +3868,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &175471297
 GameObject:
@@ -4229,19 +4138,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &178750015
 GameObject:
@@ -4520,19 +4423,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &189367418
 GameObject:
@@ -4788,19 +4685,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &193654081
 GameObject:
@@ -4929,19 +4820,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &197108833
 GameObject:
@@ -5070,19 +4955,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &197531082
 GameObject:
@@ -5211,19 +5090,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &202106796
 GameObject:
@@ -5453,19 +5326,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &213610304
 GameObject:
@@ -5594,19 +5461,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!4 &216521999 stripped
 Transform:
@@ -5804,19 +5665,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &226315368
 GameObject:
@@ -6252,19 +6107,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &236567479
 GameObject:
@@ -6468,19 +6317,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &249768014
 GameObject:
@@ -6609,19 +6452,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &252992588 stripped
 GameObject:
@@ -6760,19 +6597,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &254762749
 GameObject:
@@ -7077,19 +6908,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &264670718
 GameObject:
@@ -7394,19 +7219,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &281315350
 GameObject:
@@ -7610,19 +7429,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &288011713
 GameObject:
@@ -8064,19 +7877,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &311816213
 GameObject:
@@ -8239,19 +8046,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &319750198
 GameObject:
@@ -8530,19 +8331,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &336577389
 GameObject:
@@ -8671,19 +8466,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &343912897
 GameObject:
@@ -8988,19 +8777,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &353314890
 GameObject:
@@ -9204,19 +8987,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &356032901
 GameObject:
@@ -9345,19 +9122,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &357174096
 GameObject:
@@ -9561,19 +9332,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &363440570
 GameObject:
@@ -9953,19 +9718,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &370524789
 GameObject:
@@ -10431,19 +10190,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &387965035
 GameObject:
@@ -10572,19 +10325,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &409518577
 GameObject:
@@ -11182,19 +10929,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &436095374
 GameObject:
@@ -11323,19 +11064,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &438726714
 GameObject:
@@ -11539,19 +11274,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &443254728
 GameObject:
@@ -11680,19 +11409,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &446849108
 GameObject:
@@ -12219,19 +11942,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &465324930
 GameObject:
@@ -12435,19 +12152,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &469555572
 GameObject:
@@ -12827,19 +12538,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &483680128
 GameObject:
@@ -12968,19 +12673,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &486893419
 GameObject:
@@ -13109,19 +12808,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &489705465 stripped
 GameObject:
@@ -13528,19 +13221,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &521350801
 GameObject:
@@ -13744,19 +13431,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!4 &522954963 stripped
 Transform:
@@ -13890,19 +13571,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &529065244
 GameObject:
@@ -14106,19 +13781,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &544543061
 GameObject:
@@ -14247,19 +13916,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &545350475
 GameObject:
@@ -14489,19 +14152,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &553204944
 GameObject:
@@ -15103,19 +14760,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &569600934
 GameObject:
@@ -15244,19 +14895,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &573010289
 GameObject:
@@ -15385,19 +15030,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &574318491
 GameObject:
@@ -15676,19 +15315,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &581000550
 GameObject:
@@ -16142,19 +15775,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &600562394
 GameObject:
@@ -16708,19 +16335,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &629959783
 GameObject:
@@ -16840,19 +16461,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!114 &629959788
 MonoBehaviour:
@@ -17069,19 +16684,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &633294666
 GameObject:
@@ -17210,19 +16819,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &635905230
 GameObject:
@@ -17426,19 +17029,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &636981972
 GameObject:
@@ -17668,19 +17265,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &654196200
 GameObject:
@@ -17809,19 +17400,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &662423980
 GameObject:
@@ -17950,19 +17535,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &663893884
 GameObject:
@@ -18287,19 +17866,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &669247944
 GameObject:
@@ -18503,19 +18076,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &675849338
 GameObject:
@@ -18644,19 +18211,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &682309734
 GameObject:
@@ -18785,19 +18346,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &685196498
 GameObject:
@@ -19278,19 +18833,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &706984010
 GameObject:
@@ -19520,19 +19069,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &722727478
 GameObject:
@@ -19942,19 +19485,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &740694650
 GameObject:
@@ -20371,19 +19908,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &748346113
 GameObject:
@@ -20512,19 +20043,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &755210642
 GameObject:
@@ -20687,19 +20212,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &766345168
 GameObject:
@@ -20898,19 +20417,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &793211502
 GameObject:
@@ -21039,19 +20552,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &796946748
 GameObject:
@@ -21210,19 +20717,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &800371640
 GameObject:
@@ -21351,19 +20852,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &801857636
 GameObject:
@@ -21526,19 +21021,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &809626745
 GameObject:
@@ -21667,19 +21156,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &812393187
 GameObject:
@@ -21808,19 +21291,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &815224822
 GameObject:
@@ -22050,19 +21527,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &831813242
 GameObject:
@@ -22292,19 +21763,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &840049171
 GameObject:
@@ -23058,19 +22523,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &863032798
 GameObject:
@@ -23577,19 +23036,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &874348320
 GameObject:
@@ -23943,19 +23396,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &899999104 stripped
 GameObject:
@@ -24111,19 +23558,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &902853485
 GameObject:
@@ -24252,19 +23693,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &903518778
 GameObject:
@@ -24393,19 +23828,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &903555966
 GameObject:
@@ -24534,19 +23963,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &910138904
 GameObject:
@@ -24802,6 +24225,7 @@ MonoBehaviour:
   m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
   m_enableKerning: 1
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
@@ -24981,19 +24405,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &920217066
 GameObject:
@@ -25122,19 +24540,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1001 &920815387
 Prefab:
@@ -25313,19 +24725,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &922958339
 GameObject:
@@ -25819,19 +25225,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &945175771
 GameObject:
@@ -26090,19 +25490,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &958490920
 GameObject:
@@ -26306,19 +25700,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &966136824
 GameObject:
@@ -26649,19 +26037,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &980994406
 GameObject:
@@ -26829,19 +26211,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1001 &982664650
 Prefab:
@@ -27099,19 +26475,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1005375787
 GameObject:
@@ -27249,6 +26619,7 @@ MonoBehaviour:
   m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
   m_enableKerning: 1
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
@@ -27428,19 +26799,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1012909585
 GameObject:
@@ -27775,19 +27140,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1025297846
 GameObject:
@@ -28017,19 +27376,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1001 &1030264899
 Prefab:
@@ -28208,19 +27561,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1038432963
 GameObject:
@@ -28349,19 +27696,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1039993958
 GameObject:
@@ -28463,7 +27804,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 1039993958}
   u: 0.05
-  focus: {fileID: 1039993964}
 --- !u!114 &1039993964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28603,19 +27943,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1049821795
 GameObject:
@@ -28940,19 +28274,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1068892284
 GameObject:
@@ -29081,19 +28409,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1068897265
 GameObject:
@@ -29222,19 +28544,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1076989876
 GameObject:
@@ -29614,19 +28930,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1096123245
 GameObject:
@@ -30310,19 +29620,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1133576971
 GameObject:
@@ -30451,19 +29755,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1135176271
 GameObject:
@@ -30592,19 +29890,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1137711637
 GameObject:
@@ -31018,19 +30310,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1156657668
 GameObject:
@@ -31361,19 +30647,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1172264341
 GameObject:
@@ -31502,19 +30782,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1178128658
 GameObject:
@@ -31643,19 +30917,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1184534854
 GameObject:
@@ -31885,19 +31153,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1184741169
 GameObject:
@@ -32101,19 +31363,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1188364831
 GameObject:
@@ -32399,19 +31655,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1194851590
 GameObject:
@@ -32615,19 +31865,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1200648795
 GameObject:
@@ -32967,19 +32211,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1219500178
 GameObject:
@@ -33108,19 +32346,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1223532371
 GameObject:
@@ -33249,19 +32481,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1229194016
 GameObject:
@@ -33465,19 +32691,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1232319057
 GameObject:
@@ -33681,19 +32901,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1237875555
 GameObject:
@@ -34433,19 +33647,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1275108270
 GameObject:
@@ -34574,19 +33782,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1001 &1275178619
 Prefab:
@@ -34840,19 +34042,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1280564233
 GameObject:
@@ -35120,19 +34316,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1288803974
 GameObject:
@@ -35261,19 +34451,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1291431720
 GameObject:
@@ -35402,19 +34586,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1293065972
 GameObject:
@@ -35644,19 +34822,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1300016507
 GameObject:
@@ -35930,19 +35102,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1303136627
 GameObject:
@@ -36172,19 +35338,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1310734864
 GameObject:
@@ -36414,19 +35574,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1312301019
 GameObject:
@@ -36806,19 +35960,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1333477734
 GameObject:
@@ -37022,19 +36170,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1341943489
 GameObject:
@@ -37264,19 +36406,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1346403324
 GameObject:
@@ -37555,19 +36691,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1361893534
 GameObject:
@@ -37726,19 +36856,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1372999904
 GameObject:
@@ -38255,19 +37379,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1001 &1385172383
 Prefab:
@@ -38851,19 +37969,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1392895403
 GameObject:
@@ -39142,19 +38254,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1409494913
 GameObject:
@@ -39487,19 +38593,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1414778238
 GameObject:
@@ -39703,19 +38803,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1415542847
 GameObject:
@@ -39828,6 +38922,7 @@ GameObject:
   - component: {fileID: 1415616959}
   - component: {fileID: 1415616958}
   - component: {fileID: 1415616961}
+  - component: {fileID: 1415616962}
   - component: {fileID: 1415616960}
   - component: {fileID: 1415616957}
   m_Layer: 0
@@ -39960,6 +39055,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc64f3279ff5442dafa415e1609f642, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1415616962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1415616956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511cf001285ef42fc989ada4d3f318e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  cash: 0
 --- !u!1 &1425281015
 GameObject:
   m_ObjectHideFlags: 0
@@ -40196,19 +39304,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1429913412
 GameObject:
@@ -40337,19 +39439,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1432010862
 GameObject:
@@ -40702,19 +39798,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1001 &1441263531
 Prefab:
@@ -40902,19 +39992,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1450199086
 GameObject:
@@ -41350,19 +40434,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1468231185
 GameObject:
@@ -41491,19 +40569,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1468814133
 GameObject:
@@ -41710,19 +40782,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1471787818
 GameObject:
@@ -42001,19 +41067,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1474000616
 GameObject:
@@ -42142,19 +41202,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1477749503
 GameObject:
@@ -42433,19 +41487,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1485328967
 GameObject:
@@ -42780,19 +41828,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1504918695
 GameObject:
@@ -42921,19 +41963,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1506035928
 GameObject:
@@ -43062,19 +42098,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1511633650
 GameObject:
@@ -43181,6 +42211,7 @@ MonoBehaviour:
   m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
   m_enableKerning: 1
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
@@ -43571,19 +42602,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1519460401
 GameObject:
@@ -43776,19 +42801,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1522517370
 GameObject:
@@ -44142,19 +43161,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1543524731
 GameObject:
@@ -44586,19 +43599,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1565980078
 GameObject:
@@ -44727,19 +43734,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1566494727
 GameObject:
@@ -44868,19 +43869,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1570818206
 GameObject:
@@ -45114,19 +44109,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1582438713
 GameObject:
@@ -45255,19 +44244,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1582497846
 GameObject:
@@ -45396,19 +44379,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1583361167
 GameObject:
@@ -46037,19 +45014,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1601328257
 GameObject:
@@ -46239,19 +45210,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1607805920
 GameObject:
@@ -46592,19 +45557,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1617526707
 GameObject:
@@ -47124,19 +46083,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1636513328
 GameObject:
@@ -47366,19 +46319,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1645173213
 GameObject:
@@ -47507,19 +46454,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1651069185
 GameObject:
@@ -47648,19 +46589,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1651094401
 GameObject:
@@ -47939,19 +46874,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1696360467
 GameObject:
@@ -48114,19 +47043,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1707289608
 GameObject:
@@ -48392,19 +47315,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1721114088
 GameObject:
@@ -48608,19 +47525,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1731871367
 GameObject:
@@ -48749,19 +47660,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1733239633
 GameObject:
@@ -48965,19 +47870,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1742245541
 GameObject:
@@ -49106,19 +48005,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1746883659
 GameObject:
@@ -49247,19 +48140,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1747289126
 GameObject:
@@ -49463,19 +48350,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1747965350
 GameObject:
@@ -49830,19 +48711,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1757616109
 GameObject:
@@ -50499,19 +49374,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1779263587
 GameObject:
@@ -50917,19 +49786,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1789069793
 GameObject:
@@ -51309,19 +50172,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1797726539
 GameObject:
@@ -51450,19 +50307,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1802710940
 GameObject:
@@ -51591,19 +50442,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1806672816
 GameObject:
@@ -51732,19 +50577,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1810474158
 GameObject:
@@ -52316,19 +51155,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1824465226
 GameObject:
@@ -52715,19 +51548,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1843887491 stripped
 GameObject:
@@ -53538,19 +52365,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!4 &1884443460 stripped
 Transform:
@@ -53852,19 +52673,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1899737462
 GameObject:
@@ -53993,19 +52808,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1901827510
 GameObject:
@@ -54209,19 +53018,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1905962208
 GameObject:
@@ -54722,19 +53525,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1915444959
 GameObject:
@@ -55046,19 +53843,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1923473653
 GameObject:
@@ -55262,19 +54053,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1930057004
 GameObject:
@@ -55403,19 +54188,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1931487845
 GameObject:
@@ -55544,19 +54323,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1933351610
 GameObject:
@@ -55685,19 +54458,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1940573884
 GameObject:
@@ -55826,19 +54593,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1946312449
 GameObject:
@@ -56068,19 +54829,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1955401752
 GameObject:
@@ -56209,19 +54964,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1957763352
 GameObject:
@@ -56425,19 +55174,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &1982439901
 GameObject:
@@ -57110,19 +55853,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &2001433152
 GameObject:
@@ -57251,19 +55988,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &2004386315
 GameObject:
@@ -57392,19 +56123,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &2013807680
 GameObject:
@@ -57769,19 +56494,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &2030738645
 GameObject:
@@ -58016,19 +56735,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &2044682632
 GameObject:
@@ -58532,19 +57245,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &2066391287
 GameObject:
@@ -59370,19 +58077,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &2104330599
 GameObject:
@@ -59511,19 +58212,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &2107281873
 GameObject:
@@ -59970,19 +58665,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &2121615176
 GameObject:
@@ -60175,19 +58864,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &2124094287
 GameObject:
@@ -60391,19 +59074,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &2124647132
 GameObject:
@@ -60633,19 +59310,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efb07d3570bbbbc4f913c8c4c0276eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 1
-  equipment: 1
   isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  uacc: 0
+  size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
+  equipment: 1
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 89166027}
 --- !u!1 &2133364871
 GameObject:
