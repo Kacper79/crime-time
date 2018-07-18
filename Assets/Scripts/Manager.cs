@@ -42,3 +42,8 @@ public enum GameState
 	D1,
 	D2
 }
+public enum ObjectType
+{
+	flat
+
+}

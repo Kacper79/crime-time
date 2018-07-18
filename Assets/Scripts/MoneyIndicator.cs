@@ -17,7 +17,7 @@ public class MoneyIndicator : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		text.text = "" + Manager.Instance.cash;
+		text.text = "$" + Manager.Instance.cash;
 	}
 
 }

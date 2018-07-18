@@ -20,10 +20,9 @@ public class FlatMechanics : MonoBehaviour
 	public GameObject moneyObject;
 	void Start()
 	{
-		moneyObject = UiManager.Instance.moneyDisplay;
+		//moneyObject = UiManager.Instance.moneyDisplay;
 	}
 
-	// Update is called once per frame
 	public void UpgradeSize()
 	{
 		if (size < 5 && Manager.Instance.cash >= (sizeBasePrice + sizePriceChange * size))

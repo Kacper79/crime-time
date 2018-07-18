@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PanelClose : MonoBehaviour {
+public class PanelClose : MonoBehaviour
+{
 
 	public GameObject closedObject;
 	Animation anim;
@@ -10,23 +11,29 @@ public class PanelClose : MonoBehaviour {
 	Vector3 lastScale;
 
 
-	public void Start(){
-		anim = closedObject.GetComponent <Animation> ();
-		lastScale = closedObject.GetComponent <RectTransform> ().localScale;
+	public void Start()
+	{
+		anim = closedObject.GetComponent<Animation>();
+		lastScale = closedObject.GetComponent<RectTransform>().localScale;
 	}
 
-	public void Close(){
-		StartCoroutine (CloseAnimation ());
+	public void Close()
+	{
+		//StartCoroutine(CloseAnimation());
+		closedObject.SetActive(false);
+		Manager.Instance.state = GameState.Game;
+
 	}
 
-	IEnumerator CloseAnimation(){
+	IEnumerator CloseAnimation()
+	{
 		animating = true;
-		anim.Play ("panelTransition");
+		anim.Play("panelTransition");
 		yield return new WaitForSeconds(1);
-		closedObject.SetActive (false);
-		closedObject.GetComponent <RectTransform>().localScale = lastScale;
+		closedObject.SetActive(false);
+		closedObject.GetComponent<RectTransform>().localScale = lastScale;
 		animating = false;
-		StopCoroutine (CloseAnimation ());
+		StopCoroutine(CloseAnimation());
 		yield return null;
 	}
 }

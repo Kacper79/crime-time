@@ -6,28 +6,33 @@ using UnityEngine.UI;
 public class InteractableObject : MonoBehaviour
 {
 	public bool b = false;
-	public GameObject panel;
+	public ObjectType type;
 
 	public void OnMouseDown()
 	{
-		if (b == false)
+		if (b == false && Manager.Instance.state == GameState.Game)
 		{
-			GeneratePanelForBuilding(gameObject);
-			DisplayPanel.enable(panel);
+			//DisplayPanel.enable(panel);
+			UiManager.Instance.currentBuilding = gameObject;
 			b = true;
+			Manager.Instance.state = GameState.BigPanel;
+			UiManager.Instance.openPanel(type);
 		}
 		else
 		{
-			DisplayPanel.disable(panel);
+			//DisplayPanel.Instance.disable(DisplayPanel.Instance.flatPanel);
+			UiManager.Instance.currentBuilding = null;
 			b = false;
-		}
+			Manager.Instance.state = GameState.Game;
+			UiManager.Instance.closePanel(type);
 
+		}
 	}
-	public void GeneratePanelForBuilding(GameObject building)
-	{
-		DisplayPanel.GeneratePanelForBuilding(building, panel);
-		//panel.GetComponent<RectTransform> ().SetPositionAndRotation (building.GetComponent<RectTransform> ().position,Quaternion.identity);
-		//building.GetComponent<RectTransform> ().SetPositionAndRotation (new Vector3(),Quaternion.identity);
-	}
+	//public void GeneratePanelForBuilding(GameObject building)
+	//{
+	//	DisplayPanel.Instance.GeneratePanelForBuilding(building);
+	//panel.GetComponent<RectTransform> ().SetPositionAndRotation (building.GetComponent<RectTransform> ().position,Quaternion.identity);
+	//building.GetComponent<RectTransform> ().SetPositionAndRotation (new Vector3(),Quaternion.identity);
+	//}
 
 }

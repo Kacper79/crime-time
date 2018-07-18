@@ -5,14 +5,29 @@ using UnityEngine.UI;
 
 public class DisplayPanel : MonoBehaviour
 {
-	public static GameObject fb = null;
-	public static void enable(GameObject panel)
+	public GameObject fb;
+	public GameObject flatPanel;
+	public static DisplayPanel Instance;
+
+	void Start()
+	{
+		if (Instance == null)
+		{
+			Instance = this;
+		}
+		else if (Instance != this)
+		{
+			Destroy(gameObject);
+		}
+	}
+
+	public void enable(GameObject panel)
 	{
 		panel.SetActive(true);
-
+		Debug.Log("Enabled");
 
 	}
-	public static void disable(GameObject panel)
+	public void disable(GameObject panel)
 	{
 		panel.SetActive(false);
 		Button[] buttons = panel.GetComponentsInChildren<Button>();
@@ -20,12 +35,13 @@ public class DisplayPanel : MonoBehaviour
 		buttons[1].onClick.RemoveListener(FlatButton2);
 
 	}
-	public static void GeneratePanelForBuilding(GameObject forBuilding, GameObject panel)
+	public void GeneratePanelForBuilding(GameObject forBuilding)
 	{
-		if (forBuilding.name.Contains("Flat"))
+		if (forBuilding.GetComponent<InteractableObject>().type == ObjectType.flat)
 		{
+			Debug.Log("Generating panel");
 			fb = forBuilding;
-			Text[] texts = panel.GetComponentsInChildren<Text>();
+			Text[] texts = flatPanel.GetComponentsInChildren<Text>();
 			//Debug.Log (texts.Length);
 
 			FlatMechanics flatAttributes = fb.GetComponent<FlatMechanics>();
@@ -37,16 +53,18 @@ public class DisplayPanel : MonoBehaviour
 			texts[4].text = "Upgrade Size " + (flatAttributes.sizeBasePrice + flatAttributes.sizeBasePrice * flatAttributes.size);
 			texts[5].text = "Upgrade Equipment " + (flatAttributes.sizeBasePrice + flatAttributes.sizeBasePrice * flatAttributes.size);
 			texts[6].text = "Rent Criminal";
-			Button[] buttons = panel.GetComponentsInChildren<Button>();
+			Button[] buttons = flatPanel.GetComponentsInChildren<Button>();
 			buttons[0].onClick.AddListener(FlatButton1);
 			buttons[1].onClick.AddListener(FlatButton2);
+
+			enable(flatPanel);
 		}
 	}
-	public static void FlatButton1()
+	public void FlatButton1()
 	{
 		fb.GetComponent<FlatMechanics>().UpgradeSize();
 	}
-	public static void FlatButton2()
+	public void FlatButton2()
 	{
 		fb.GetComponent<FlatMechanics>().UpgradeEquipment();
 	}
