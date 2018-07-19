@@ -13,15 +13,20 @@ public class PanelClose : MonoBehaviour
 
 	public void Start()
 	{
-		anim = closedObject.GetComponent<Animation>();
-		lastScale = closedObject.GetComponent<RectTransform>().localScale;
+		//anim = closedObject.GetComponent<Animation>();
+		//lastScale = closedObject.GetComponent<RectTransform>().localScale;
 	}
 
 	public void Close()
 	{
 		//StartCoroutine(CloseAnimation());
-		closedObject.SetActive(false);
+		Debug.Log("Close 1");
 		Manager.Instance.state = GameState.Game;
+		//UiManager.Instance.currentBuilding.GetComponent<InteractableObject>().b = false;
+		UiManager.Instance.currentBuilding = null;
+		closedObject.SetActive(false);
+		Debug.Log("Close 2");
+
 
 	}
 

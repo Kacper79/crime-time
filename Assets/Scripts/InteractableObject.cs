@@ -5,20 +5,20 @@ using UnityEngine.UI;
 
 public class InteractableObject : MonoBehaviour
 {
-	public bool b = false;
+	//public bool b = false;
 	public ObjectType type;
 
 	public void OnMouseDown()
 	{
-		if (b == false && Manager.Instance.state == GameState.Game)
+		if (UiManager.Instance.currentBuilding != gameObject/*b == false && Manager.Instance.state == GameState.Game*/)
 		{
 			//DisplayPanel.enable(panel);
 			UiManager.Instance.currentBuilding = gameObject;
-			b = true;
+			//b = true;
 			Manager.Instance.state = GameState.BigPanel;
 			UiManager.Instance.openPanel(type);
 		}
-		else
+		/*else
 		{
 			//DisplayPanel.Instance.disable(DisplayPanel.Instance.flatPanel);
 			UiManager.Instance.currentBuilding = null;
@@ -26,7 +26,7 @@ public class InteractableObject : MonoBehaviour
 			Manager.Instance.state = GameState.Game;
 			UiManager.Instance.closePanel(type);
 
-		}
+		}*/
 	}
 	//public void GeneratePanelForBuilding(GameObject building)
 	//{
