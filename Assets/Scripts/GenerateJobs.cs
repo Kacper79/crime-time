@@ -34,11 +34,13 @@ public class GenerateJobs : MonoBehaviour
 		webjob.price = 69;
 		webjob.panel = job;
 		currentJob.transform.parent = gameObject.transform;
-		float transitionX = gameObject.GetComponent<RectTransform>().position.x - jobTransform.position.x;
-		float transitionY = gameObject.GetComponent<RectTransform>().position.y - jobTransform.position.y - jobTransform.sizeDelta.y * offsetY;
+		float transitionX = job.GetComponent<RectTransform>().position.x - jobTransform.position.x;
+		float transitionY = job.GetComponent<RectTransform>().position.y - jobTransform.position.y - jobTransform.sizeDelta.y * offsetY;
 		Vector3 transition = new Vector3(transitionX, transitionY, 0);
 		jobTransform.Translate(transition);
 		jobTransform.offsetMin = new Vector2(0, jobTransform.offsetMin.y);
 		jobTransform.offsetMin = new Vector2(2, jobTransform.offsetMax.y);
+		//jobTransform = job.GetComponent<RectTransform>();
+
 	}
 }
