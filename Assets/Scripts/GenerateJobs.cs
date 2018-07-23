@@ -26,7 +26,7 @@ public class GenerateJobs : MonoBehaviour
 	private void MakeJobs(float offsetY)
 	{
 		Debug.Log("Making Job");
-		GameObject currentJob = Instantiate(job) as GameObject;
+		GameObject currentJob = Instantiate(job, job.transform.position, job.transform.rotation) as GameObject;
 		RectTransform jobTransform = currentJob.GetComponent<RectTransform>();
 		WebJob webjob = currentJob.GetComponent<WebJob>();
 		webjob.clientName = "D'Es Pacito";
