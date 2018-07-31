@@ -2,11 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+<<<<<<< HEAD
 using System.IO;
 using TMPro;
+=======
+using TMPro;
+using TMPro.EditorUtilities;
+>>>>>>> a5c2d22aafeba827135b9ea123077bf0bc9c9504
 
-public class WebJob : MonoBehaviour {
+public class WebJob : MonoBehaviour
+{
 
+<<<<<<< HEAD
     // Use this for initialization
     public string clientName;
     public bool done;
@@ -78,4 +85,38 @@ public class WebJob : MonoBehaviour {
     {
         jobNumber = ID;
     }
+=======
+	// Use this for initialization
+	public string clientName;
+	public bool done;
+
+
+	public JOB_TYPE Jobtype;
+	public int price;
+
+	public GameObject panel;
+
+	void Start()
+	{
+		Debug.Log("Start");
+		ConstructUI();
+	}
+
+	public void ConstructUI()
+	{
+		TMP_Text[] texts = panel.GetComponentsInChildren<TMP_Text>();
+
+		//GameObject g = Instantiate(proto);
+
+		//Text[] texts = panel.GetComponentsInChildren<Text>();
+		texts[0].text = clientName;
+		texts[1].text = Jobtype.ToString();
+		texts[2].text = price.ToString();
+	}
+>>>>>>> a5c2d22aafeba827135b9ea123077bf0bc9c9504
+}
+public enum JOB_TYPE
+{
+	Criminal_house,
+	Rent_house
 }
