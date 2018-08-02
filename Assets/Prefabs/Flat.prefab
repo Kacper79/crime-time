@@ -68,7 +68,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8533334, y: 0.8533334}
   m_EdgeRadius: 0
+<<<<<<< HEAD
+--- !u!114 &114333465976846930
+=======
 --- !u!114 &114566650218994538
+>>>>>>> a5c2d22aafeba827135b9ea123077bf0bc9c9504
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -76,10 +80,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1120026775263838}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
+  m_Script: {fileID: 11500000, guid: 605ddf47fd1124f52af8498bfe8656ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_Script: {fileID: 11500000, guid: 4d5df8f062e493b4dab4a87a160e786a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   b: 0
+>>>>>>> a5c2d22aafeba827135b9ea123077bf0bc9c9504
   type: 0
 --- !u!114 &114803443184967654
 MonoBehaviour:
@@ -94,11 +104,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isTaken: 0
   size: 1
+<<<<<<< HEAD
+  equipment: 0
+  act: 0
+  isTaken: 0
+  s2uc: 10000
+  s3uc: 15000
+  s4uc: 20000
+  s5uc: 25000
+  e1uc: 5000
+  e2uc: 10000
+  e3uc: 15000
+  e4uc: 20000
+  e5uc: 25000
+  apc: 100000
+  uacc: 0
+=======
   sizeBasePrice: 10000
   sizePriceChange: 5000
   equipment: 1
   equipmentBasePrice: 10000
   equipmentPriceChange: 5000
+>>>>>>> a5c2d22aafeba827135b9ea123077bf0bc9c9504
   moneyObject: {fileID: 0}
 --- !u!212 &212202685074329208
 SpriteRenderer:

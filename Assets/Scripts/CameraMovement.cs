@@ -11,6 +11,16 @@ public class CameraMovement : MonoBehaviour
 
 	}
 
+<<<<<<< HEAD
+	void Update(){
+        //Res:640x480
+        if (focus.state != 0)
+        {
+            return;
+        }
+		double x1 = Screen.width * 0.7;//512
+		double x2 = Screen.width * 0.01;//128
+=======
 	void Update()
 	{
 		//Res:640x480
@@ -20,6 +30,7 @@ public class CameraMovement : MonoBehaviour
 		}
 		double x1 = Screen.width * 0.9;//512
 		double x2 = Screen.width * 0.05;//128
+>>>>>>> a5c2d22aafeba827135b9ea123077bf0bc9c9504
 		double y1 = Screen.height * 0.9;//384
 		double y2 = Screen.height * 0.1;//96
 		Vector3 m = Input.mousePosition;

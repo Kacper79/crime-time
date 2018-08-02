@@ -7,14 +7,10 @@ using TMPro.EditorUtilities;
 public class GenerateJobs : MonoBehaviour
 {
 
-	public GameObject job;
-	public Canvas canva;
+	public GameObject[] jobs;
 	void Start()
 	{
-		MakeJobs(1);
-		MakeJobs(2);
 		MakeJobs(3);
-
 	}
 
 
@@ -23,9 +19,9 @@ public class GenerateJobs : MonoBehaviour
 
 	}
 
-	private void MakeJobs(float offsetY)
+	private void MakeJobs(int count)
 	{
-		Debug.Log("Making Job");
+		/*Debug.Log("Making Job");
 		GameObject currentJob = Instantiate(job, job.transform.position, job.transform.rotation) as GameObject;
 		RectTransform jobTransform = currentJob.GetComponent<RectTransform>();
 		WebJob webjob = currentJob.GetComponent<WebJob>();
@@ -40,7 +36,15 @@ public class GenerateJobs : MonoBehaviour
 		jobTransform.Translate(transition);
 		jobTransform.offsetMin = new Vector2(0, jobTransform.offsetMin.y);
 		jobTransform.offsetMin = new Vector2(2, jobTransform.offsetMax.y);
-		//jobTransform = job.GetComponent<RectTransform>();
-
+		//jobTransform = job.GetComponent<RectTransform>();*/
+		for (int i = 0; i < count; i++)
+		{
+			WebJob job = jobs[i].GetComponent<WebJob>();
+			job.clientName = "aaa";
+			job.Jobtype = JOB_TYPE.Criminal_house;
+			job.price = 69;
+			job.ConstructUI();
+			jobs[i].SetActive(true);
+		}
 	}
 }
