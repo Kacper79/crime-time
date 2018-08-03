@@ -3,12 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 public class UiManager : MonoBehaviour
 {
 
 	FlatMechanics Building;
 	public GameObject flatUI;
-	public Text[] FlatTexts;
+	public TMP_Text[] FlatTexts;
 	public GameObject currentBuilding;
 	public static UiManager Instance;
 	public GameObject moneyDisplay;
@@ -28,12 +29,20 @@ public class UiManager : MonoBehaviour
 		Instance = this;
 
 
-		FlatTexts = flatUI.GetComponentsInChildren<Text>();
+		FlatTexts = flatUI.GetComponentsInChildren<TMP_Text>();
 	}
 
 	public void SetFlatValues()
 	{
 		FlatMechanics flat = currentBuilding.GetComponent<FlatMechanics>();
+		if (flat.owned == true)
+		{
+			FlatTexts[7].text = "Act of ownership T";
+		}
+		else
+		{
+			FlatTexts[7].text = "Act of ownership F";
+		}
 
 		FlatTexts[1].text = "Size: " + flat.size;
 		FlatTexts[2].text = "Equipment Quality: " + flat.equipment;
@@ -65,6 +74,7 @@ public class UiManager : MonoBehaviour
 		if (type == ObjectType.flat)
 		{
 			flatUI.SetActive(false);
+			SetFlatValues();
 		}
 	}
 }

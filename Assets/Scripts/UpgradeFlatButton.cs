@@ -14,8 +14,8 @@ public class UpgradeFlatButton : MonoBehaviour
 	{
 		UiManager.Instance.currentBuilding.GetComponent<FlatMechanics>().UpgradeEquipment();
 	}
-	//public void PurchaseActFlat()
-	//{
-	//    UiManager.Instance.currentBuilding.GetComponent<FlatMechanics>().PurchaseAct();
-	//}
+	public void PurchaseActFlat()
+	{
+		UiManager.Instance.currentBuilding.GetComponent<FlatMechanics>().PurchaseAct();
+	}
 }
