@@ -15,7 +15,7 @@ public class Manager : MonoBehaviour
 	{
 		if (Instance == null)
 		{
-			Instance = this; ;
+			Instance = this;
 		}
 		else if (Instance != this)
 		{

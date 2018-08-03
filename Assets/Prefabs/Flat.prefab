@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4338809314784190}
   - component: {fileID: 212202685074329208}
   - component: {fileID: 61713924910118734}
+  - component: {fileID: 114692836265738070}
   - component: {fileID: 114803443184967654}
   - component: {fileID: 114333465976846930}
   m_Layer: 0
@@ -80,6 +81,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+--- !u!114 &114692836265738070
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1120026775263838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d5df8f062e493b4dab4a87a160e786a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
 --- !u!114 &114803443184967654
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -93,20 +106,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isTaken: 0
   size: 1
+  sizeBasePrice: 10000
+  sizePriceChange: 5000
   equipment: 0
-  act: 0
-  isTaken: 0
-  s2uc: 10000
-  s3uc: 15000
-  s4uc: 20000
-  s5uc: 25000
-  e1uc: 5000
-  e2uc: 10000
-  e3uc: 15000
-  e4uc: 20000
-  e5uc: 25000
-  apc: 100000
-  uacc: 0
+  equipmentBasePrice: 10000
+  equipmentPriceChange: 5000
   moneyObject: {fileID: 0}
 --- !u!212 &212202685074329208
 SpriteRenderer:
