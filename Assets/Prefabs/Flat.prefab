@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4338809314784190}
   - component: {fileID: 212202685074329208}
   - component: {fileID: 61713924910118734}
-  - component: {fileID: 114566650218994538}
   - component: {fileID: 114803443184967654}
+  - component: {fileID: 114333465976846930}
   m_Layer: 0
   m_Name: Flat
   m_TagString: Untagged
@@ -70,7 +70,7 @@ BoxCollider2D:
   m_EdgeRadius: 0
 --- !u!114 &114333465976846930
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1120026775263838}

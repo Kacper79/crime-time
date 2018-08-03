@@ -11,12 +11,13 @@ public class CameraMovement : MonoBehaviour
 
 	}
 
-	void Update(){
-        //Res:640x480
-        if (focus.state != 0)
-        {
-            return;
-        }
+	void Update()
+	{
+		//Res:640x480
+		if (Manager.Instance.state != GameState.Game)
+		{
+			return;
+		}
 		double x1 = Screen.width * 0.7;//512
 		double x2 = Screen.width * 0.01;//128
 		double y1 = Screen.height * 0.9;//384

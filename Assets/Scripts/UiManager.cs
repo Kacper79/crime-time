@@ -1,15 +1,18 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 public class UiManager : MonoBehaviour
 {
 
-    void Start()
-    {
-        Instance = this;
-        FlatTexts = flatUI.GetComponentsInChildren<TextMeshProUGUI>();
-     }
+	FlatMechanics Building;
+	public GameObject flatUI;
+	public Text[] FlatTexts;
+	public GameObject currentBuilding;
+	public static UiManager Instance;
+	public GameObject moneyDisplay;
+	public PanelClose flatClose;
 
 	void Start()
 	{
