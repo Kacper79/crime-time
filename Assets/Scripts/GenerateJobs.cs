@@ -10,7 +10,7 @@ public class GenerateJobs : MonoBehaviour
 	public GameObject[] jobs;
 	void Start()
 	{
-		MakeJobs(3);
+		MakeJobs(4);
 	}
 
 
@@ -40,6 +40,7 @@ public class GenerateJobs : MonoBehaviour
 		for (int i = 0; i < count; i++)
 		{
 			WebJob job = jobs[i].GetComponent<WebJob>();
+			job.panel = jobs[i];
 			job.clientName = "aaa";
 			job.Jobtype = JOB_TYPE.Criminal_house;
 			job.price = 69;
