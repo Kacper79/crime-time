@@ -18,15 +18,14 @@ public class InteractableObject : MonoBehaviour
 			Manager.Instance.state = GameState.BigPanel;
 			UiManager.Instance.openPanel(type);
 		}
-		/*else
+		else
 		{
 			//DisplayPanel.Instance.disable(DisplayPanel.Instance.flatPanel);
 			UiManager.Instance.currentBuilding = null;
-			b = false;
 			Manager.Instance.state = GameState.Game;
 			UiManager.Instance.closePanel(type);
 
-		}*/
+		}
 	}
 	//public void GeneratePanelForBuilding(GameObject building)
 	//{

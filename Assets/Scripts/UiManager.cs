@@ -66,6 +66,7 @@ public class UiManager : MonoBehaviour
 		if (type == ObjectType.flat)
 		{
 			flatUI.SetActive(true);
+			SetFlatValues();
 		}
 	}
 
