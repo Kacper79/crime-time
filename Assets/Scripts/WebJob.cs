@@ -10,8 +10,7 @@ public class WebJob : MonoBehaviour
 
 	// Use this for initialization
 	public string clientName;
-	public bool done;
-
+	public bool taken;
 
 	public JOB_TYPE Jobtype;
 	public int price;
@@ -23,6 +22,7 @@ public class WebJob : MonoBehaviour
 		Debug.Log("Start");
 		panel = gameObject;
 		ConstructUI();
+		taken = false;
 	}
 
 	public void ConstructUI()
@@ -35,6 +35,16 @@ public class WebJob : MonoBehaviour
 		texts[0].text = clientName;
 		texts[1].text = Jobtype.ToString();
 		texts[2].text = price.ToString();
+	}
+
+	public void TakeJob()
+	{
+		taken = true;
+	}
+
+	public void ReportDone()
+	{
+
 	}
 }
 public enum JOB_TYPE

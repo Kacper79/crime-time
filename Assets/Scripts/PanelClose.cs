@@ -21,10 +21,12 @@ public class PanelClose : MonoBehaviour
 	{
 		//StartCoroutine(CloseAnimation());
 		Debug.Log("Close 1");
-		Manager.Instance.state = GameState.Game;
+
 		//UiManager.Instance.currentBuilding.GetComponent<InteractableObject>().b = false;
-		UiManager.Instance.currentBuilding = null;
+
 		closedObject.SetActive(false);
+		UiManager.Instance.currentBuilding = null;
+		Manager.Instance.state = GameState.Game;
 		Debug.Log("Close 2");
 
 
@@ -34,9 +36,10 @@ public class PanelClose : MonoBehaviour
 	{
 		//StartCoroutine(CloseAnimation());
 		Debug.Log("Close 1");
-		Manager.Instance.state = GameState.Game;
+
 		//UiManager.Instance.currentBuilding.GetComponent<InteractableObject>().b = false;
 		closedObject.SetActive(false);
+		Manager.Instance.state = GameState.Game;
 		Debug.Log("Close 2");
 
 
