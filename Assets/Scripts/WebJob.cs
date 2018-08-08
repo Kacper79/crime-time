@@ -52,8 +52,4 @@ public class WebJob : MonoBehaviour
 		done = true;
 	}
 }
-public enum JOB_TYPE
-{
-	Criminal_house,
-	Rent_house
-}
+

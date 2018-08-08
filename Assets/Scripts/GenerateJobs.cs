@@ -10,7 +10,7 @@ public class GenerateJobs : MonoBehaviour
 	public GameObject[] jobs;
 	void Start()
 	{
-		MakeJobs(4);
+		MakeJobs(3);
 	}
 
 

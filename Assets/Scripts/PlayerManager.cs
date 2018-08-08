@@ -24,6 +24,7 @@ public class PlayerManager : MonoBehaviour
 	public void AddJob(WebJob job)
 	{
 		jobs.Add(job); ;
+
 	}
 
 	public void RemoveJob(WebJob job)

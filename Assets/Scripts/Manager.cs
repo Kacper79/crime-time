@@ -47,3 +47,9 @@ public enum ObjectType
 	flat
 
 }
+
+public enum JOB_TYPE
+{
+	Criminal_house,
+	Rent_house
+}
