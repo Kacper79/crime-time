@@ -37,15 +37,26 @@ public class GenerateJobs : MonoBehaviour
 		jobTransform.offsetMin = new Vector2(0, jobTransform.offsetMin.y);
 		jobTransform.offsetMin = new Vector2(2, jobTransform.offsetMax.y);
 		//jobTransform = job.GetComponent<RectTransform>();*/
-		for (int i = 0; i < count; i++)
+		for (int i = 0; i < jobs.Length && i < count; i++)
 		{
+
 			WebJob job = jobs[i].GetComponent<WebJob>();
-			job.panel = jobs[i];
-			job.clientName = "aaa";
-			job.Jobtype = JOB_TYPE.Criminal_house;
-			job.price = 69;
-			job.ConstructUI();
-			jobs[i].SetActive(true);
+			if (job.taken && !job.done)
+			{
+				count++;
+			}
+			else
+			{
+				job.panel = jobs[i];
+				job.clientName = "aaa";
+				job.Jobtype = JOB_TYPE.Criminal_house;
+				job.price = 69;
+				job.done = false;
+				job.taken = false;
+				job.ConstructUI();
+				jobs[i].SetActive(true);
+			}
+
 		}
 	}
 }

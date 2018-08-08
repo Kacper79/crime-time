@@ -11,11 +11,14 @@ public class WebJob : MonoBehaviour
 	// Use this for initialization
 	public string clientName;
 	public bool taken;
+	public bool done;
 
 	public JOB_TYPE Jobtype;
 	public int price;
 
 	public GameObject panel;
+
+	public int id;
 
 	void Start()
 	{
@@ -39,12 +42,14 @@ public class WebJob : MonoBehaviour
 
 	public void TakeJob()
 	{
+		PlayerManager.Instance.AddJob(this);
 		taken = true;
 	}
 
 	public void ReportDone()
 	{
-
+		PlayerManager.Instance.RemoveJob(this);
+		done = true;
 	}
 }
 public enum JOB_TYPE

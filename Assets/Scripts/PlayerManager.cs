@@ -6,7 +6,7 @@ public class PlayerManager : MonoBehaviour
 {
 
 	public static PlayerManager Instance;
-	public WebJob[] jobs;
+	public List<WebJob> jobs;
 
 
 	void Start()
@@ -19,8 +19,15 @@ public class PlayerManager : MonoBehaviour
 		{
 			Destroy(gameObject);
 		}
-		jobs = new WebJob[5];
 	}
 
+	public void AddJob(WebJob job)
+	{
+		jobs.Add(job); ;
+	}
 
+	public void RemoveJob(WebJob job)
+	{
+
+	}
 }
