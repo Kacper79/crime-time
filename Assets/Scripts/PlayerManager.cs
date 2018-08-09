@@ -29,6 +29,11 @@ public class PlayerManager : MonoBehaviour
 
 	public void RemoveJob(WebJob job)
 	{
-
+		//foreach (WebJob webjob in jobs)
+		//{
+		//if (webjob.id == job.id)
+		//{
+		jobs.Remove(job);
 	}
+	//}
 }

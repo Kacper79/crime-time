@@ -4,12 +4,17 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using TMPro.EditorUtilities;
+using System.IO;
 public class GenerateJobs : MonoBehaviour
 {
 
 	public GameObject[] jobs;
+	public string[] names;
+	System.Random r;
 	void Start()
 	{
+		r = new System.Random();
+		names = GetNamesFromFile("Assets/Configs/identities.cfg");
 		MakeJobs(3);
 	}
 
@@ -48,7 +53,7 @@ public class GenerateJobs : MonoBehaviour
 			else
 			{
 				job.panel = jobs[i];
-				job.clientName = "aaa";
+				job.clientName = GenerateName();
 				job.Jobtype = JOB_TYPE.Criminal_house;
 				job.price = 69;
 				job.done = false;
@@ -58,5 +63,22 @@ public class GenerateJobs : MonoBehaviour
 			}
 
 		}
+	}
+	public string[] GetNamesFromFile(string path)
+	{
+		StreamReader reader = new StreamReader(path);
+		string[] lines = new string[200];
+		for (int i = 0; i < 200; i++)
+		{
+			lines[i] = reader.ReadLine();
+		}
+		reader.Close();
+		return lines;
+	}
+
+	public string GenerateName()
+	{
+		return names[r.Next(0, 199)];
+
 	}
 }
