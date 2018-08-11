@@ -42,14 +42,20 @@ public class WebJob : MonoBehaviour
 
 	public void TakeJob()
 	{
-		PlayerManager.Instance.AddJob(this);
-		taken = true;
+		if (!taken)
+		{
+			PlayerManager.Instance.AddJob(this);
+			taken = true;
+			gameObject.GetComponent<Image>().color = new Color(155, 155, 155);
+		}
+
 	}
 
 	public void ReportDone()
 	{
 		PlayerManager.Instance.RemoveJob(this);
 		done = true;
+		gameObject.GetComponent<Image>().color = new Color(55, 55, 55);
 	}
 }
 
