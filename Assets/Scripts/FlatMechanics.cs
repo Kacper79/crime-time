@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class FlatMechanics : MonoBehaviour
 {
 
 	public GameObject estate;
+	public OpenPanel open;
 	public bool isTaken = false;
 
 	public short size = 0; //Max 4
@@ -50,6 +52,17 @@ public class FlatMechanics : MonoBehaviour
 			owned = true;
 		}
 	}
+	public void Rent()
+	{
+		var validJobs = from job in PlayerManager.Instance.jobs
+						where job.Jobtype == JOB_TYPE.Rent_house
+						select job;
+		if (validJobs.Count() == 0)
+		{
+			Debug.Log("Open job panel");
+		}
+	}
+
 
 	/*void OnMouseDown()
 	{
