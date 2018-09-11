@@ -36,8 +36,8 @@ public class WebJob : MonoBehaviour
 
 		//Text[] texts = panel.GetComponentsInChildren<Text>();
 		texts[0].text = clientName;
-		texts[1].text = Jobtype.ToString();
-		texts[2].text = price.ToString();
+		texts[1].text = "Order:<b>"+Jobtype.ToString()+"</b>";
+		texts[2].text = "PRICE:"+price.ToString()+"$";
 	}
 
 	public void TakeJob()
@@ -47,15 +47,24 @@ public class WebJob : MonoBehaviour
 			PlayerManager.Instance.AddJob(this);
 			taken = true;
 			gameObject.GetComponent<Image>().color = new Color(155, 155, 155);
+			////if(UiManager.Instance.currentBuilding.GetComponent<InteractableObject>().type == InteractableObject.){
+				//AFlat_Rent action = new AFlat_Rent(UiManager.Instance.currentBuilding,this,false);
+			//	PlayerManager.Instance.AddAction(action,id);
+            //
+            
 		}
 
 	}
 
 	public void ReportDone()
 	{
-		PlayerManager.Instance.RemoveJob(this);
-		done = true;
-		gameObject.GetComponent<Image>().color = new Color(55, 55, 55);
+		Action action = PlayerManager.Instance.GetAction(id);
+		if(action.checkd()==true){
+			action.done();
+			action.finish();
+		}
+	
+		//gameObject.GetComponent<Image>().color = new Color(55, 55, 55);
 	}
 }
 

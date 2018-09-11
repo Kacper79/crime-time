@@ -22,7 +22,7 @@ public class Manager : MonoBehaviour
 			Destroy(gameObject);
 		}
 		state = GameState.Game;
-		cash = 100000;
+		cash = 10000000;
 	}
 
 	public void increaseCash(int amount)

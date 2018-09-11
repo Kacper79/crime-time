@@ -20,12 +20,16 @@ public class FlatMechanics : MonoBehaviour
 	public int value;
 	public bool owned = false;
 	public int actprice = 10000;
+	public int roomNA = 0;
 
 	public GameObject moneyObject;
 	void Start()
 	{
 		//moneyObject = UiManager.Instance.moneyDisplay;
 		value = size * sizePriceChange + sizeBasePrice + equipment * equipmentPriceChange + equipmentBasePrice + actprice;
+		if(estate != null){
+			value *= estate.GetComponent<EstateMek>().estateMultiplier;
+		}
 	}
 
 	public void UpgradeSize()

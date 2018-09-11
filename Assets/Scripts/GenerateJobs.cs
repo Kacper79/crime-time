@@ -11,11 +11,14 @@ public class GenerateJobs : MonoBehaviour
 	public GameObject[] jobs;
 	public string[] names;
 	System.Random r;
+	public int[] prices;
+	public int minPrice;
+	public int maxPrice;
 	void Start()
 	{
 		r = new System.Random();
 		names = GetNamesFromFile("Assets/Configs/identities.cfg");
-		MakeJobs(3);
+		MakeJobs(jobs.Length);
 	}
 
 
@@ -55,7 +58,7 @@ public class GenerateJobs : MonoBehaviour
 				job.panel = jobs[i];
 				job.clientName = GenerateName();
 				job.Jobtype = JOB_TYPE.Criminal_house;
-				job.price = 69;
+				job.price = 69;//GenPrice();
 				job.done = false;
 				job.taken = false;
 				job.ConstructUI();
@@ -80,5 +83,20 @@ public class GenerateJobs : MonoBehaviour
 	{
 		return names[r.Next(0, 199)];
 
+	}
+	public int GenPrice(){
+		int[] v = new int[10];
+		v[0] = minPrice;
+		v[1] = (int)(minPrice * 1.15);
+		v[2] = (int)(minPrice * 1.21);
+		v[3] = (int)(minPrice * 1.37);
+		v[4] = (int)(minPrice * 1.41);
+		v[5] = (int)(maxPrice * 0.91);
+		v[6] = (int)(maxPrice * 0.87);
+		v[7] = (int)(maxPrice * 0.81);
+		v[8] = (int)(maxPrice * 0.73);
+		v[9] = maxPrice;
+		prices = v;
+		return prices[r.Next(0, 10)];
 	}
 }
