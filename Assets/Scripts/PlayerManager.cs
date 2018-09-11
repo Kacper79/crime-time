@@ -9,6 +9,7 @@ public class PlayerManager : MonoBehaviour
 	public List<WebJob> jobs;
 	public int APRLimit = 2;
 	public Dictionary<int,Action> actions;
+	public int tempID = -1;
 	void Start()
 	{
 		if (Instance == null)
@@ -35,12 +36,14 @@ public class PlayerManager : MonoBehaviour
 		//{
 		jobs.Remove(job);
 	}
-	public void AddAction(Action a,int id){
-		actions[id] = a;
+	public void AddAction(Action a){
+		tempID++;
+		actions[tempID] = a;
 	}
 	public void RemoveAction(Action a)
     {
-        actions.Remove(a);
+		tempID--;
+        actions.Remove(a.id);
     }
 	public Action GetAction(int id){
 		Action action = actions[id];
