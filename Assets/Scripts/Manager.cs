@@ -33,6 +33,26 @@ public class Manager : MonoBehaviour
 	{
 		cash = cash - amount;
 	}
+
+	public void OpenPanel(GameObject panel, bool changeState)
+	{
+		panel.SetActive(true);
+		if (changeState)
+		{
+			Manager.Instance.state = GameState.BigPanel;
+		}
+	}
+	public void OpenPanel(GameObject panel)
+	{
+		panel.SetActive(true);
+		Manager.Instance.state = GameState.BigPanel;
+	}
+
+	public void ClosePanel(GameObject closedObject)
+	{
+		closedObject.SetActive(false);
+		Manager.Instance.state = GameState.Game;
+	}
 }
 
 public enum GameState
