@@ -68,8 +68,8 @@ public enum ObjectType
 
 }
 
-public enum JOB_TYPE
-{
-	Criminal_house,
-	Rent_house
-}
+//public enum JOB_TYPE
+//
+//	Criminal_house,
+//	Rent_house
+//

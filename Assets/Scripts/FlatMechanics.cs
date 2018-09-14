@@ -59,7 +59,7 @@ public class FlatMechanics : MonoBehaviour
 	public void Rent()
 	{
 		var validJobs = from job in PlayerManager.Instance.jobs
-						where job.Jobtype == JOB_TYPE.Rent_house
+			                                         where job.Jobtype == JobType.Flat_RentHouse
 						select job;
 		if (validJobs.Count() == 0)
 		{

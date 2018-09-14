@@ -4,6 +4,7 @@ using UnityEngine;
 
 public abstract class Action : MonoBehaviour {
 	public bool isdone = false;
+	public int crimeduration;
 	public int id;
 
 	//public abstract void checki();

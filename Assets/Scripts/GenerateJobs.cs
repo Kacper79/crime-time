@@ -57,7 +57,7 @@ public class GenerateJobs : MonoBehaviour
 			{
 				job.panel = jobs[i];
 				job.clientName = GenerateName();
-				job.Jobtype = JOB_TYPE.Criminal_house;
+				job.Jobtype = JobType.Flat_RentHouse;
 				job.price = 69;//GenPrice();
 				job.done = false;
 				job.taken = false;

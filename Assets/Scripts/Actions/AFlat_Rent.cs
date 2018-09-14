@@ -7,11 +7,17 @@ public class AFlat_Rent : Action
 	public GameObject flat;
 	public WebJob webJob;
 	public int income;
-	public bool sbPur = false;
-	public AFlat_Rent(GameObject flat,WebJob webJob,int income){
+	public int hoteldays;
+	public int clientOpinion;
+
+	public static int minPriceRange = 0;
+	public static int maxPriceRange = 0;
+
+	//public bool sbPur = false;
+	public AFlat_Rent(GameObject flat,WebJob webJob){
 		this.flat = flat;
 		this.webJob = webJob;
-		this.income = income;
+		income = webJob.price;
 
 	}
 
@@ -19,23 +25,15 @@ public class AFlat_Rent : Action
 	{
 		
 		bool response;
-		if (webJob.price >= Manager.Instance.cash)
-		{
-
-			if (PlayerManager.Instance.APRLimit != 0)
-			{
-				Manager.Instance.increaseCash(income);
-				response = true;
-			}
-			else
-			{
-				response = false;
-			}
-		}
-		else
-		{
-			response = false;
-		}
+		if (PlayerManager.Instance.APRLimit != 0)
+        {
+            Manager.Instance.increaseCash(income);
+            response = true;
+        }
+        else
+        {
+            response = false;
+        }
 		return response;
 	}
     

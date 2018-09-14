@@ -13,7 +13,7 @@ public class WebJob : MonoBehaviour
 	public bool taken;
 	public bool done;
 
-	public JOB_TYPE Jobtype;
+	public JobType Jobtype;
 	public int price;
 
 	public GameObject panel;
