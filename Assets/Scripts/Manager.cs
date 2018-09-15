@@ -10,6 +10,7 @@ public class Manager : MonoBehaviour
 	public GameState state;
 
 	public int cash;
+	public int numberofbuildingsonthemap;
 
 	void Start()
 	{

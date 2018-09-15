@@ -26,12 +26,15 @@ public class FlatMechanics : MonoBehaviour
 	void Start()
 	{
 		//moneyObject = UiManager.Instance.moneyDisplay;
-		value = size * sizePriceChange + sizeBasePrice + equipment * equipmentPriceChange + equipmentBasePrice + actprice;
-		if(estate != null){
-			value *= estate.GetComponent<EstateMek>().estateMultiplier;
-		}
 	}
-
+	public int GetValue(){
+		int va = size * sizePriceChange + sizeBasePrice + equipment * equipmentPriceChange + equipmentBasePrice + actprice;
+        if (estate != null)
+        {
+            va *= estate.GetComponent<EstateMek>().estateMultiplier;
+        }
+		return va;
+	}
 	public void UpgradeSize()
 	{
 		if (size < 5 && Manager.Instance.cash >= (sizeBasePrice + sizePriceChange * size) && owned == true)

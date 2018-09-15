@@ -9,9 +9,10 @@ public class AFlat_Rent : Action
 	public int income;
 	public int hoteldays;
 	public int clientOpinion;
+	public string bname;
 
-	public static int minPriceRange = 0;
-	public static int maxPriceRange = 0;
+	public static int priceUnit = 0;
+	public static int dayIncreaseVal = 0;
 
 	//public bool sbPur = false;
 	public AFlat_Rent(GameObject flat,WebJob webJob){
