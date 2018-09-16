@@ -24,6 +24,9 @@ public class PeopleRegister : MonoBehaviour
 	public string[] objectlist;
 	System.Random random = new System.Random();
     //Called in each round
+	public PeopleRegister(){
+		
+	}
 	public void GenerateOrder(){
 		//Choosing the crime type        
         
@@ -39,6 +42,7 @@ public class PeopleRegister : MonoBehaviour
 			}else{//its random
 				  //Find object on the scene matching the name.
 				  //Feed the 1st arg
+				GameObject gameObject = GameObject.Find();
 				  //Chosing the income
 				int income = AFlat_Rent.priceUnit * random.Next(1,8);
 				//Choosing hoteldays count
@@ -47,22 +51,6 @@ public class PeopleRegister : MonoBehaviour
 			}
 		}
 	}
-	public string[] GetNamesFromFile(string path)
-    {
-        StreamReader reader = new StreamReader(path);
-        string[] lines = new string[200];
-        for (int i = 0; i < 200; i++)
-        {
-            lines[i] = reader.ReadLine();
-        }
-        reader.Close();
-        return lines;
-    }
-
-    public string GenerateName()
-    {
-		return objectlist[random.Next(0, 199)];
-
-    }
+	     
  }
 

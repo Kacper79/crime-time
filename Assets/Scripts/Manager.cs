@@ -11,6 +11,7 @@ public class Manager : MonoBehaviour
 
 	public int cash;
 	public int numberofbuildingsonthemap;
+	public int numberofnormalbuildingssametype;
 
 	void Start()
 	{
