@@ -6,6 +6,10 @@ public class PeopleCreator
 {
 	public string[] allposibblenames;
 	public System.Random random = new System.Random();
+    
+	public void GeneratePeople(){
+		
+	} 
 
 	public string[] GetNamesFromFile(string path)
     {

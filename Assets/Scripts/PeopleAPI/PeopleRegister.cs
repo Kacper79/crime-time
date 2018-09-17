@@ -12,7 +12,7 @@ public class PeopleRegister : MonoBehaviour
 	public int age;//Age increases intrest lowers requirements increases along with the price;
 	public string[] hiddenData;//It works if you spy someone to sell data about this person;
 	public bool revenge;//If the reason person commit crimes is a revange he will probably pay more
-	public bool crimelord;//if he is a crimelord the pricing will be higher("with honour");
+	public int crimelord;//if he is a crimelord the pricing will be higher("with honour");
 	public int revangeStreak;//how many orders will be led by revange;
 	//public Product[] shoplist//shop list - person will with high % buy products from that list;
 	public Dictionary<int, Action> totalcriminalhistory;//Total history of crimes of this person;
@@ -36,18 +36,25 @@ public class PeopleRegister : MonoBehaviour
 		if(jt == JobType.Flat_RentHouse){
 			
 			//Choose if it's a random or specyfic flat
-			int o = random.Next(0, count);
+			int o = random.Next(0, wishlisto.Length-1);
 			if(o!=0){
 				
 			}else{//its random
 				  //Find object on the scene matching the name.
 				  //Feed the 1st arg
-				GameObject gameObject = GameObject.Find();
+				GameObject gameObject = GameObject.Find(wishlisto[o]);
 				  //Chosing the income
 				int income = AFlat_Rent.priceUnit * random.Next(1,8);
 				//Choosing hoteldays count
 				int hoteldays = random.Next(1, 7);
 				income *= hoteldays;
+				if(revenge == true){
+					income = (int)(income * 3);
+				}
+				if(crimelord!=0){
+					income = (int)(income * 4);
+				}
+				income = (int)(income * (1/((age - 15) / 25)));
 			}
 		}
 	}
