@@ -12,8 +12,9 @@ public class Manager : MonoBehaviour
 	public int cash;
 	public int numberofbuildingsonthemap;
 	public int numberofnormalbuildingssametype;
+	public int maxnumberofcitizens;
 
-	void Start()
+	public void Start()
 	{
 		if (Instance == null)
 		{

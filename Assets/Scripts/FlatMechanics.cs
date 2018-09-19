@@ -57,6 +57,7 @@ public class FlatMechanics : MonoBehaviour
 		{
 			Manager.Instance.decreaseCash(actprice);
 			owned = true;
+			PlayerManager.Instance.AddAsset(gameObject);
 		}
 	}
 	public void Rent()

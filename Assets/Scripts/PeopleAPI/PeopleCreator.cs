@@ -2,15 +2,26 @@
 using System.IO;
 using UnityEngine;
 
-public class PeopleCreator
+public class PeopleCreator : MonoBehaviour
 {
 	public string[] allposibblenames;
-	public System.Random random = new System.Random();
-    
-	public void GeneratePeople(){
-		
+	public System.Random random; 
+	public void Start(){
+		allposibblenames = GetNamesFromFile("Assets/Configs/identities.cfg");
+		random = new System.Random(); 
+	}
+    //Genrate basic info - Name,Birthdate,Age,IQ,EQ,ID
+	public void GeneratePersonalInfo(){
+		int nowi = 2018;
+		DateTime current = new DateTime(nowi);
+		int age = random.Next(15, 40);
+		int bd = nowi - age;
+		String pn = GenerateName();
+		int IQ = random.Next(1, 100);
+		int EQ = random.Next(0,250);
+		int ID = random.Next(0,Manager.Instance.maxnumberofcitizens);
 	} 
-
+    
 	public string[] GetNamesFromFile(string path)
     {
         StreamReader reader = new StreamReader(path);

@@ -10,6 +10,7 @@ public class PlayerManager : MonoBehaviour
 	public int APRLimit = 2;
 	public Dictionary<int,Action> actions;
 	public int tempID = -1;
+	public List<GameObject> playerassets;
 	void Start()
 	{
 		if (Instance == null)
@@ -21,7 +22,9 @@ public class PlayerManager : MonoBehaviour
 			Destroy(gameObject);
 		}
 	}
-
+	public void AddAsset(GameObject asset){
+		playerassets.Add(asset);
+	}
 	public void AddJob(WebJob job)
 	{
 		jobs.Add(job); 
