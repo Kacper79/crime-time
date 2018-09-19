@@ -25,6 +25,7 @@ public class PeopleRegister : MonoBehaviour
 	public int monthlyIncomes;//Income of person;
 	public string[] wishlisto;//List of person liked buildings etc...
 	public string[] objectlist;
+	public int gender = 0;// 0 - Male 1 - Female
 	System.Random random = new System.Random();
     
 	public void GenerateOrder(){

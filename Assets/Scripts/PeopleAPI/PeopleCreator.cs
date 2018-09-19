@@ -5,21 +5,23 @@ using UnityEngine;
 public class PeopleCreator : MonoBehaviour
 {
 	public string[] allposibblenames;
-	public System.Random random; 
+	public System.Random random;
+	public int tempID = 0;
 	public void Start(){
 		allposibblenames = GetNamesFromFile("Assets/Configs/identities.cfg");
 		random = new System.Random(); 
 	}
     //Genrate basic info - Name,Birthdate,Age,IQ,EQ,ID
-	public void GeneratePersonalInfo(){
-		int nowi = 2018;
-		DateTime current = new DateTime(nowi);
-		int age = random.Next(15, 40);
-		int bd = nowi - age;
+	public PeopleRegister GeneratePersonalInfo(){
+		PeopleRegister register = new PeopleRegister();
+		int nowi = new DateTime().Year;
+		register.age = random.Next(15, 40);
+		register.age=nowi - register.age;
 		String pn = GenerateName();
-		int IQ = random.Next(1, 100);
-		int EQ = random.Next(0,250);
-		int ID = random.Next(0,Manager.Instance.maxnumberofcitizens);
+		register.IQ = random.Next(1, 100);
+		register.EQ = random.Next(0,250);
+		register.ID = tempID++;
+		return register;
 	} 
     
 	public string[] GetNamesFromFile(string path)
