@@ -13,6 +13,7 @@ public class Manager : MonoBehaviour
 	public int numberofbuildingsonthemap;
 	public int numberofnormalbuildingssametype;
 	public int maxnumberofcitizens;
+	public PeopleRegister register;
 
 	public void Start()
 	{
