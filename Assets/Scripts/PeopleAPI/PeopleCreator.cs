@@ -6,7 +6,8 @@ public class PeopleCreator : MonoBehaviour
 {
 	public string[] allposibblenames;
 	public System.Random random;
-	public int tempID = 0;
+	public int tempID;
+	public PeopleRegister reg = new PeopleRegister();
 	public void Start(){
 		allposibblenames = GetNamesFromFile("Assets/Configs/identities.cfg");
 		random = new System.Random(); 
@@ -21,6 +22,7 @@ public class PeopleCreator : MonoBehaviour
 		register.IQ = random.Next(1, 100);
 		register.EQ = random.Next(0,250);
 		register.ID = tempID++;
+		reg.Add(register);
 		return register;
 	} 
     

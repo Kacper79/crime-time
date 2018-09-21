@@ -17,7 +17,6 @@ public class People : MonoBehaviour
 	public int IQ;
 	public int EQ;
 	public int ID;
-	public int whoInFamilyGeneration;
 	//public Product[] shoplist//shop list - person will with high % buy products from that list;
 	public Dictionary<int, Action> totalcriminalhistory;//Total history of crimes of this person;
 	public Dictionary<int, Action> policecriminalhistory;//History of crimes sentected by police;
@@ -26,7 +25,8 @@ public class People : MonoBehaviour
 	public int monthlyIncomes;//Income of person;
 	public string[] wishlisto;//List of person liked buildings etc...
 	public string[] objectlist;
-	public int gender = 0;// 0 - Male 1 - Female
+	public bool isDead;
+	public int gender;// 0 - Male 1 - Female
 	System.Random random = new System.Random();
     
 	public void GenerateOrder(){
@@ -67,20 +67,25 @@ public class People : MonoBehaviour
                     income = (int)(income * totalcriminalhistory.Keys.Count / 4 * (crimelord + 1));
                 }
 				income = (int)(income * (gameObject.GetComponent<FlatMechanics>().equipment * 1.5f));
-                WebJob webJob = new WebJob();
-                webJob.clientName = this.pname;
-                webJob.price = (int)income;
-                webJob.taken = false;
-                webJob.done = false;
-                webJob.Jobtype = JobType.Flat_RentHouse;
-				AFlat_Rent action = new AFlat_Rent(webJob);
-				action.hoteldays = vhoteldays;
-                action.crimeduration = vhoteldays;
-                action.random = true;
-			}else{//its random
+				WebJob webJob = new WebJob
+				{
+					clientName = this.pname,
+					price = (int)income,
+					taken = false,
+					done = false,
+					Jobtype = JobType.Flat_RentHouse
+				};
+				AFlat_Rent action = new AFlat_Rent(webJob)
+				{
+					hoteldays = vhoteldays,
+					crimeduration = vhoteldays,
+					random = true
+				};
+			}
+			else{//its random
 				  //Find object on the scene matching the name.
 				  //Feed the 1st arg
-				GameObject gameObject = GameObject.Find(wishlisto[o]);
+				GameObject goo = GameObject.Find(wishlisto[o]);
 				  //Chosing the income
 				float income = AFlat_Rent.priceUnit * random.Next(1,8);
 				//Choosing hoteldays count
@@ -101,16 +106,20 @@ public class People : MonoBehaviour
 				}else{
 					income = (int)(income * totalcriminalhistory.Keys.Count / 4 * (crimelord+1));               
 				}
-				WebJob webJob = new WebJob();
-				webJob.clientName = this.pname;
-				webJob.price = (int)income;
-				webJob.taken = false;
-				webJob.done = false;
-				webJob.Jobtype = JobType.Flat_RentHouse;
-				AFlat_Rent action = new AFlat_Rent(gameObject, webJob);
-				action.hoteldays = vhoteldays;
-				action.crimeduration = vhoteldays;
-				action.random = false;
+				WebJob webJob = new WebJob
+				{
+					clientName = this.pname,
+					price = (int)income,
+					taken = false,
+					done = false,
+					Jobtype = JobType.Flat_RentHouse
+				};
+				AFlat_Rent action = new AFlat_Rent(goo, webJob)
+				{
+					hoteldays = vhoteldays,
+					crimeduration = vhoteldays,
+					random = false
+				};
 			}
 		}
 	}
