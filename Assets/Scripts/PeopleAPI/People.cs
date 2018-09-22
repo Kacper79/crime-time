@@ -18,8 +18,8 @@ public class People : MonoBehaviour
 	public int EQ;
 	public int ID;
 	//public Product[] shoplist//shop list - person will with high % buy products from that list;
-	public Dictionary<int, Action> totalcriminalhistory;//Total history of crimes of this person;
-	public Dictionary<int, Action> policecriminalhistory;//History of crimes sentected by police;
+	public Dictionary<int, Crime> totalcriminalhistory;//Total history of crimes of this person;
+	public Dictionary<int, Crime> policecriminalhistory;//History of crimes sentected by police;
 	//public Car[] carlist;//List of person cars;
 	//public Building[] assets;//List of assets;
 	public int monthlyIncomes;//Income of person;

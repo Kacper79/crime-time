@@ -7,9 +7,13 @@ public class BankAccount : MonoBehaviour
 	public List<TransferHistory> bankStatements;
 	public bool accountBlocked;
 	public int money;
-	public List<Law> laws = new List<Law>();
+	public List<Crime> crimes = new List<Law>();
 	public People owner;
     
+	public BankAccount(){
+		TransferRegister.Instance.bankAccounts.Add(this);
+	}
+
 	public void TransferMoneyWithoutTaxes(BankAccount recieve,String reason,int money){
 		if (this.money >= money)
         {
@@ -27,10 +31,12 @@ public class BankAccount : MonoBehaviour
 		};
 		bankStatements.Add(history);
 		MoneyTransferTaxLaw law = new MoneyTransferTaxLaw();
-		laws.Add(law);
 		history.tax = CalculateTaxes(history,law);
 		history.taxPayed = false;
 		TransferRegister.Instance.transfers.Add(history);
+		law.isVioleted = true;
+		Crime crime = new Crime(law,false);
+		crimes.Add(crime);
 	}
 	public void TransferMoneyWithTaxes(BankAccount recieve, String reason, int money)
     {
@@ -55,11 +61,11 @@ public class BankAccount : MonoBehaviour
 				ID = TransferRegister.Instance.GenerateTransactionID(),
 				money = history.tax
 			};
-			taxHistory.title = "MTT MTRANSFER " + taxHistory.ID + " FROM " + owner.ID;
+			taxHistory.title = "MTT MTRANSFER " + taxHistory.ID + " FROM MTRANSFER "+ history.ID+" FROM PERSON " + owner.ID;
 			bankStatements.Add(history);
 			bankStatements.Add(taxHistory);
-            laws.Add(law);
             TransferRegister.Instance.transfers.Add(history);
+			law.isVioleted = false;
         }
         else
         {
