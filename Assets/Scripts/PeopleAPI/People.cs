@@ -27,13 +27,13 @@ public class People : MonoBehaviour
 	public string[] objectlist;
 	public bool isDead;
 	public int gender;// 0 - Male 1 - Female
+	public BankAccount[] bankAccounts;
 	System.Random random = new System.Random();
     
 	public void GenerateOrder(){
 		//Choosing the crime type        
         
 		JobType jt = (JobType)random.Next(1,2);
-		int count = Manager.Instance.numberofbuildingsonthemap;
         //Cheking if it's FRH
 		if(jt == JobType.Flat_RentHouse){
 			
@@ -120,6 +120,9 @@ public class People : MonoBehaviour
 					crimeduration = vhoteldays,
 					random = false
 				};
+				//webjob.ConstructUI();
+				PlayerManager.Instance.AddAction(action);
+				PlayerManager.Instance.AddJob(webJob);
 			}
 		}
 	}

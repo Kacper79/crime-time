@@ -5,10 +5,11 @@ public class Work : MonoBehaviour{
 	public People owner;
 	public int incomeToWorkers;
 	public WorkType type;
-	public string name;
-	public Work(People owner,WorkType type){
+	public string orgname;
+	public Work(People owner,WorkType type,string orgname){
 		this.owner = owner;
 		this.type = type;
+		this.orgname = orgname;
 	}
 
 	public void EmployPeople(People worker,int payment){

@@ -21,6 +21,7 @@ public class FlatMechanics : MonoBehaviour
 	public bool owned = false;
 	public int actprice = 10000;
 	public int roomNA = 0;
+	public People owner;
 
 	public GameObject moneyObject;
 	void Start()

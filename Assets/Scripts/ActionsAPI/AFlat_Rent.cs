@@ -11,6 +11,7 @@ public class AFlat_Rent : Action
 	public int clientOpinion;
 	//public string bname;
 	public bool random = false;
+	public bool payWithTax = false;
 
 	public static int priceUnit = 0;
 	public static int dayIncreaseVal = 0;
@@ -52,7 +53,9 @@ public class AFlat_Rent : Action
 					target = propositions[i];
 					if(target.GetComponent<FlatMechanics>().roomNA<target.GetComponent<FlatMechanics>().size*8){
 						response = true;
-						Manager.Instance.increaseCash(income);
+						//Manager.Instance.increaseCash(income);
+
+						//webJob.client.bankAccounts[0].TransferMoneyWithoutTaxes(target.GetComponent<FlatMechanics>().owner.);
 						break;
 					}
 				}
@@ -78,5 +81,6 @@ public class AFlat_Rent : Action
 	public override void finish()
 	{
 		PlayerManager.Instance.RemoveJob(webJob);
+		PlayerManager.Instance.RemoveAction(this);
 	}
 }

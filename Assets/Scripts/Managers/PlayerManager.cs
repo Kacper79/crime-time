@@ -40,12 +40,10 @@ public class PlayerManager : MonoBehaviour
 		jobs.Remove(job);
 	}
 	public void AddAction(Action a){
-		tempID++;
-		actions[tempID] = a;
+		actions.Add(a.id,a);
 	}
 	public void RemoveAction(Action a)
     {
-		tempID--;
         actions.Remove(a.id);
     }
 	public Action GetAction(int id){

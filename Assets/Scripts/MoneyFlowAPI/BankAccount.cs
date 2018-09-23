@@ -7,7 +7,7 @@ public class BankAccount : MonoBehaviour
 	public List<TransferHistory> bankStatements;
 	public bool accountBlocked;
 	public int money;
-	public List<Crime> crimes = new List<Law>();
+	public List<Crime> crimes = new List<Crime>();
 	public People owner;
     
 	public BankAccount(){
