@@ -121,6 +121,7 @@ public class People : MonoBehaviour
 					random = false
 				};
 				//webjob.ConstructUI();
+				//webhob.SetActive();
 				PlayerManager.Instance.AddAction(action);
 				PlayerManager.Instance.AddJob(webJob);
 			}
