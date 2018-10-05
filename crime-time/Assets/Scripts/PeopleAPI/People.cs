@@ -37,7 +37,7 @@ public class People : MonoBehaviour
         //Cheking if it's FRH
 		if(jt == JobType.Flat_RentHouse){
 			
-			//Choose if it's a random or specyfic flat
+			//Choose if it's a random or specific flat
 			int o = random.Next(0, wishlisto.Length-1);
 			if(o!=0){
 				float income = AFlat_Rent.priceUnit * random.Next(1, 8);
