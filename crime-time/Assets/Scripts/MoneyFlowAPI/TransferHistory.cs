@@ -7,7 +7,7 @@ public class TransferHistory
 	public BankAccount reciver;
 	public int money;
 	public String title;
-	public bool taxPayed;
+	public bool taxPaid;
 	public int tax;
 	public int ID;
 }
