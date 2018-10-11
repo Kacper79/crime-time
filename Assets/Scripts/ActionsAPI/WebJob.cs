@@ -10,7 +10,7 @@ public class WebJob : MonoBehaviour
 
 	// Use this for initialization
 	public string clientName;
-	public People client;
+	public Person client;
 	public bool taken;
 	public bool done;
 

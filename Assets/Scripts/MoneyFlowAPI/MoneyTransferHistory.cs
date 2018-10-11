@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-public class TransferHistory
+public class MoneyTransferHistory
 {
 	public BankAccount sender;
 	public BankAccount reciver;

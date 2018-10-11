@@ -13,8 +13,8 @@ public class PeopleCreator : MonoBehaviour
 		random = new System.Random(); 
 	}
     //Genrate basic info - Name,Birthdate,Age,IQ,EQ,ID
-	public People GeneratePersonalInfo(){
-		People register = new People();
+	public Person GeneratePersonalInfo(){
+        Person register = new Person();
 		int nowi = new DateTime().Year;
 		register.age = random.Next(15, 40);
 		register.age=nowi - register.age;
@@ -22,7 +22,7 @@ public class PeopleCreator : MonoBehaviour
 		register.IQ = random.Next(1, 100);
 		register.EQ = random.Next(0,250);
 		register.ID = tempID++;
-		reg.Add(register);
+		reg.AddPeople(register);
 		return register;
 	} 
     

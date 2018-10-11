@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 public class AssetAccount : MonoBehaviour{
-	public People owner;
+	public Person owner;
 	public bool haveAccess;
 	public int value;
 	public List<Asset> assets = new List<Asset>();
 	public List<AssetTransferHistory> transferHistories = new List<AssetTransferHistory>();
-	public List<Crime> crimes = new List<Crime>();
+	public List<Law> crimes = new List<Law>();
 
-	public AssetAccount(People owner){
+	public AssetAccount(Person owner){
 		this.owner = owner;
 	}
 

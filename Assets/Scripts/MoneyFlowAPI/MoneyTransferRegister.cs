@@ -1,12 +1,12 @@
 ﻿
 using System.Collections.Generic;
 using UnityEngine;
-public class TransferRegister : MonoBehaviour{
+public class MoneyTransferRegister : MonoBehaviour{
 	public List<BankAccount> bankAccounts = new List<BankAccount>();
-	public List<TransferHistory> transfers = new List<TransferHistory>();
+	public List<MoneyTransferHistory> transfers = new List<MoneyTransferHistory>();
 	public int tempID = -1;
 
-	public static TransferRegister Instance;
+	public static MoneyTransferRegister Instance;
 
 	public void Start(){
 		if(Instance==null){

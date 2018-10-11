@@ -2,7 +2,7 @@
 using UnityEngine;
 
 public class Asset : MonoBehaviour{
-	public People owner;
+	public Person owner;
 	public String aname;
 	public int value;
 

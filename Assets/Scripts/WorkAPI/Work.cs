@@ -1,18 +1,18 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 public class Work : MonoBehaviour{
-	public List<People> workers;
-	public People owner;
+	public List<Person> workers;
+	public Person owner;
 	public int incomeToWorkers;
 	public WorkType type;
 	public string orgname;
-	public Work(People owner,WorkType type,string orgname){
+	public Work(Person owner,WorkType type,string orgname){
 		this.owner = owner;
 		this.type = type;
 		this.orgname = orgname;
 	}
 
-	public void EmployPeople(People worker,int payment){
+	public void EmployPerson(Person worker,int payment){
 		workers.Add(worker);
 		incomeToWorkers += payment;
 	}

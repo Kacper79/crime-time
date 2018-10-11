@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 public class PeopleRegister : MonoBehaviour
 {
-	public static Dictionary<int, People> register;
-    
-	public void Add(People people){
+	public static Dictionary<int, Person> register;
+
+	public void AddPeople(Person people){
 		register.Add(people.ID, people);
 	}
-	public void Remove(People people){
+	public void RemovePeople(Person people){
 		register.Remove(people.ID);
 	}
 } 

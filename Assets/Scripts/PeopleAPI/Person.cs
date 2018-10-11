@@ -2,9 +2,9 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.IO;
-//namespace AssemblyCSharp.Assets.Scripts.PeopleAPI
+//namespace AssemblyCSharp.Assets.Scripts.API
 
-public class People : MonoBehaviour
+public class Person : MonoBehaviour
 {
 	public String pname;//Name along with the surname of this person
 	public int birthDate;//Personal data worth to sell;
@@ -18,8 +18,8 @@ public class People : MonoBehaviour
 	public int EQ;
 	public int ID;
 	//public Product[] shoplist//shop list - person will with high % buy products from that list;
-	public Dictionary<int, Crime> totalcriminalhistory;//Total history of crimes of this person;
-	public Dictionary<int, Crime> policecriminalhistory;//History of crimes sentected by police;
+	public Dictionary<int, Law> totalcriminalhistory;//Total history of crimes of this person;
+	public Dictionary<int, Law> policecriminalhistory;//History of crimes sentected by police;
 	//public Car[] carlist;//List of person cars;
 	//public Building[] assets;//List of assets;
 	public int monthlyIncomes;//Income of person;
