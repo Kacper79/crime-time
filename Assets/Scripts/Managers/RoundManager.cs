@@ -12,6 +12,10 @@ public class RoundManager : MonoBehaviour {
     {
         roundNumber++;
         //contentPanel.GetComponent<WebJob>().ConstructRentHouseOrder(6);// Generate new orders in next round
+        //Generate history
+        //Children born
+        //People die and get sick
+        //Few crimes and murders
         Debug.Log("Next Round");
     }
     public void Start()
