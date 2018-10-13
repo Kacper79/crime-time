@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class FlatMechanics : MonoBehaviour
+public class FlatMechanics : AssetMek
 {
 
 	public GameObject estate;

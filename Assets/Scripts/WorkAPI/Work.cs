@@ -4,6 +4,7 @@ public class Work : MonoBehaviour{
 	public List<Person> workers;
 	public Person owner;
 	public int incomeToWorkers;
+    public int[] monthPayment;
 	public WorkType type;
 	public string orgname;
 	public Work(Person owner,WorkType type,string orgname){

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EstateMek : MonoBehaviour
+public class EstateMek : AssetMek
 {
-
+    public Person owner;
 	public GameObject[] flats;
 	public int estateMultiplier;//you can name it prestige tax
 
@@ -23,9 +23,9 @@ public class EstateMek : MonoBehaviour
 		foreach (GameObject g in flats)
 		{
 			FlatMechanics f = g.GetComponent<FlatMechanics>();
-			f.equipment = 0;
-			f.size = 1;
-			//f.act = false;
+            //f.equipment = 0;
+            //f.size = 1;
+            f.owner = GovermentPerson.Instance.confiscatePerson;
 			//show loss panel
 		}
 	}

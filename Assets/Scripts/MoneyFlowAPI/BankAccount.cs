@@ -15,7 +15,7 @@ public class BankAccount : MonoBehaviour
 	}
 
 	public void TransferMoneyWithoutTaxes(BankAccount recieve,String reason,int money){
-		if (this.money >= money)
+		if (this.money >= money && this.accountBlocked==false)
         {
             this.money -= money;
 		}else{
@@ -30,50 +30,57 @@ public class BankAccount : MonoBehaviour
 			ID = MoneyTransferRegister.Instance.GenerateTransactionID()
 		};
 		bankStatements.Add(history);
-		MoneyTransferTaxLaw law = new MoneyTransferTaxLaw();
-		history.tax = CalculateTaxes(history,law);
+        recieve.bankStatements.Add(history);
+        MoneyTransferTaxLaw law = new MoneyTransferTaxLaw();
+		history.tax = law.CalculateTaxes(history);
 		history.taxPayed = false;
 		MoneyTransferRegister.Instance.transfers.Add(history);
 		law.isVioleted = true;
 		crimes.Add(law);
+        this.money -= money;
+        recieve.money += money;
 	}
 	public void TransferMoneyWithTaxes(BankAccount recieve, String reason, int money)
     {
 		MoneyTransferTaxLaw law = new MoneyTransferTaxLaw();
-        MoneyTransferHistory history = new MoneyTransferHistory
+        int tax = law.CalculateTaxes(money);
+        if(money+tax<=this.money && this.accountBlocked == false)
         {
-            sender = this,
-            reciver = recieve,
-            title = reason,
-            money = money,
-            ID = MoneyTransferRegister.Instance.GenerateTransactionID()
-        };
-		history.tax = CalculateTaxes(history, law);
-		if (this.money >= (money+history.tax))
-        {
-			this.money -= (money+history.tax);
-			history.taxPayed = true;
-			MoneyTransferHistory taxHistory = new MoneyTransferHistory
-			{
-				sender = this,
-				reciver = GovermentAccounts.Instance.transferTaxAccount,
-				ID = MoneyTransferRegister.Instance.GenerateTransactionID(),
-				money = history.tax
-			};
-			taxHistory.title = "MTT MTRANSFER " + taxHistory.ID + " FROM MTRANSFER "+ history.ID+" FROM PERSON " + owner.ID;
-			bankStatements.Add(history);
-			bankStatements.Add(taxHistory);
+            MoneyTransferHistory history = new MoneyTransferHistory
+            {
+                sender = this,
+                reciver = recieve,
+                title = reason,
+                money = money,
+                ID = MoneyTransferRegister.Instance.GenerateTransactionID()
+            };
+            history.tax = tax;
+            history.taxPayed = true;
+
+            MoneyTransferHistory taxHistory = new MoneyTransferHistory
+            {
+                sender = this,
+                reciver = GovermentAccounts.Instance.govAccount,
+                ID = MoneyTransferRegister.Instance.GenerateTransactionID(),
+                money = history.tax
+            };
+            taxHistory.title = "MTT MTRANSFER " + taxHistory.ID + " FROM MTRANSFER " + history.ID + " FROM PERSON " + owner.ID;
+            bankStatements.Add(history);
+            bankStatements.Add(taxHistory);
+            recieve.bankStatements.Add(history);
             MoneyTransferRegister.Instance.transfers.Add(history);
-			law.isVioleted = false;
+            MoneyTransferRegister.Instance.transfers.Add(taxHistory);
+            law.isVioleted = false;
+            this.money -= (money + tax);
+            recieve.money += (money+tax);
         }
+
+	
         else
         {
             return;
         }
         
     }
-	public int CalculateTaxes(MoneyTransferHistory history,MoneyTransferTaxLaw law){
-		return (int)law.percent * history.money;
-	}
 }
 

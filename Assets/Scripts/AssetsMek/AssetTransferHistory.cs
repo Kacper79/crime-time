@@ -8,6 +8,7 @@ public class AssetTransferHistory : MonoBehaviour{
     public bool taxPayed;
     public int tax;
     public int ID;
+    public Asset asset;
 }
     
 

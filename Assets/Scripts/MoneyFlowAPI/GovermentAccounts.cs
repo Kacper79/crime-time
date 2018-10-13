@@ -3,7 +3,7 @@ using UnityEngine;
 public class GovermentAccounts : MonoBehaviour
 {
 	public static GovermentAccounts Instance;
-	public BankAccount transferTaxAccount;
+	public BankAccount govAccount;
 	public void Start(){
 		if(Instance==null){
 			Instance = this;

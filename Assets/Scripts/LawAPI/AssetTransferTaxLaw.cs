@@ -6,10 +6,10 @@ public class AssetTransferTaxLaw : Law
 	public int percent;
 
 
-	public override void CheckViolation()
-	{
-		
-	}
+    public int CalculateTaxes(Asset asset)
+    {
+        return (int)this.percent * asset.value;
+    }
 }
   
 

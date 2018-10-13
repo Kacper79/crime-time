@@ -4,9 +4,13 @@ public class MoneyTransferTaxLaw : Law
 {
 	public BankAccount govermentBankAccount;
 	public float percent;
-	public override void CheckViolation()
-	{
-		
-	}
+    public int CalculateTaxes(MoneyTransferHistory history)
+    {
+        return (int)this.percent * history.money;
+    }
+    public int CalculateTaxes(int money)
+    {
+        return (int)this.percent * money;
+    }
 }
 
