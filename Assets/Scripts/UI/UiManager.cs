@@ -35,7 +35,7 @@ public class UiManager : MonoBehaviour
 	public void SetFlatValues()
 	{
 		FlatMechanics flat = currentBuilding.GetComponent<FlatMechanics>();
-		if (flat.owned == true)
+		if (flat.owner == PlayerManager.Instance.player)
 		{
 			FlatTexts[5].text = "Act of ownership T";
 		}

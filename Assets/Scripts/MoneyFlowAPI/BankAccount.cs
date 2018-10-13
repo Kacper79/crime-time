@@ -40,7 +40,24 @@ public class BankAccount : MonoBehaviour
         this.money -= money;
         recieve.money += money;
 	}
-	public void TransferMoneyWithTaxes(BankAccount recieve, String reason, int money)
+    public void PayAssetMaintanceTax(Asset asset)
+    {
+        AssetMaintainceTaxLaw law = new AssetMaintainceTaxLaw();
+        int tax = law.percent * asset.value;
+        if (money >= tax && accountBlocked==false)
+        {
+            MoneyTransferHistory history = new MoneyTransferHistory
+            {
+                sender = this,
+                reciver = GovermentAccounts.Instance.govAccount,
+                title = "",
+                money = tax,
+                tax = tax,
+                ID = MoneyTransferRegister.Instance.GenerateTransactionID()
+            }
+        }
+    }
+    public void TransferMoneyWithTaxes(BankAccount recieve, String reason, int money)
     {
 		MoneyTransferTaxLaw law = new MoneyTransferTaxLaw();
         int tax = law.CalculateTaxes(money);

@@ -18,7 +18,7 @@ public class FlatMechanics : AssetMek
 	public int equipmentBasePrice = 10000;
 	public int equipmentPriceChange = 5000;
 	public int value;
-	public bool owned = false;
+	//public bool owned = false;
 	public int actprice = 10000;
 	public int roomNA = 0;
 	public Person owner;
@@ -38,7 +38,7 @@ public class FlatMechanics : AssetMek
 	}
 	public void UpgradeSize()
 	{
-		if (size < 5 && Manager.Instance.cash >= (sizeBasePrice + sizePriceChange * size) && owned == true)
+		if (size < 5 && Manager.Instance.cash >= (sizeBasePrice + sizePriceChange * size) && owner == PlayerManager.Instance.player)
 		{
 			Manager.Instance.decreaseCash(sizeBasePrice + sizePriceChange * size);
 			size++;
@@ -46,19 +46,20 @@ public class FlatMechanics : AssetMek
 	}
 	public void UpgradeEquipment()
 	{
-		if (equipment < 5 && Manager.Instance.cash >= (equipmentBasePrice + equipmentPriceChange * equipment) && owned == true)
+		if (equipment < 5 && Manager.Instance.cash >= (equipmentBasePrice + equipmentPriceChange * equipment) && owner == PlayerManager.Instance.player)
 		{
-			Manager.Instance.decreaseCash(equipmentBasePrice + equipmentPriceChange * equipment);
+            Manager.Instance.decreaseCash(equipmentBasePrice + equipmentPriceChange * equipment);
 			equipment++;
 		}
 	}
 	public void PurchaseAct()
 	{
-		if (owned == false && Manager.Instance.cash >= actprice)
+		if (owner != PlayerManager.Instance.player && Manager.Instance.cash >= actprice)
 		{
 			Manager.Instance.decreaseCash(actprice);
-			owned = true;
-			PlayerManager.Instance.AddAsset(gameObject);
+            owner = PlayerManager.Instance.player;
+
+            PlayerManager.Instance.AddAsset(gameObject);
 		}
 	}
 	public void Rent()

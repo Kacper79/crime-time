@@ -11,6 +11,7 @@ public class PlayerManager : MonoBehaviour
 	public Dictionary<int,Action> actions;
 	public int tempID = -1;
 	public List<GameObject> playerassets;
+    public Person player;
 	void Start()
 	{
 		if (Instance == null)

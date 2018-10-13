@@ -35,7 +35,7 @@ public class AFlat_Rent : Action
         {
 			if(!random){
 				FlatMechanics fmek = flat.GetComponent<FlatMechanics>();
-				if(fmek.owned==true){
+				if(fmek.owner==PlayerManager.Instance.player){
 					if(fmek.roomNA<fmek.size*8){
 						response = true;
 						Manager.Instance.increaseCash(income);
@@ -67,10 +67,7 @@ public class AFlat_Rent : Action
 		return response;
 	}
     
-	//public override void checki()
-	//{
-    //    throw new System.NotImplementedException();
-	//}
+	
 
 	public override void done()
 	{
