@@ -50,11 +50,23 @@ public class BankAccount : MonoBehaviour
             {
                 sender = this,
                 reciver = GovermentAccounts.Instance.govAccount,
-                title = "",
+                ID = MoneyTransferRegister.Instance.GenerateTransactionID(),
                 money = tax,
                 tax = tax,
-                ID = MoneyTransferRegister.Instance.GenerateTransactionID()
-            }
+                taxPayed = true
+
+            };
+            history.title = "AMT MTRANSFER " + history.ID + " FOR ASSET " + asset.name + " FROM PERSON " + owner.ID;
+            bankStatements.Add(history);
+            history.reciver.bankStatements.Add(history);
+            MoneyTransferRegister.Instance.transfers.Add(history);
+            law.isVioleted = false;
+            money -= tax;
+            history.reciver.money += tax;
+        }
+        else
+        {
+            return;
         }
     }
     public void TransferMoneyWithTaxes(BankAccount recieve, String reason, int money)

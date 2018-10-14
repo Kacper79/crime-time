@@ -28,7 +28,10 @@ public class Person : MonoBehaviour
 	public bool isDead;
 	public int gender;// 0 - Male 1 - Female
 	public BankAccount[] bankAccounts;
-    public bool wasAbused;//If (s)he was she might revenge on him/her
+    public AssetAccount assetAccount;
+    public bool wasAbused;//If (s)he was (s)he might wanna revenge on him/her
+    public Testament testament;
+    public Family Family;
 	System.Random random = new System.Random();
     
 	public void GenerateOrder(){

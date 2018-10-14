@@ -39,7 +39,7 @@ public class Family : MonoBehaviour
         thirdGeneration.Add(daughter);
         //Generate more people if family is wealthy;
     }
-    public void ExecuteTestament(Person deadperson)
+    public void SplitHeirdomWithoutTestament(Person deadperson)
     {
         Person[] tmpl = new Person[4];
         int tmpi = 0;
@@ -75,7 +75,24 @@ public class Family : MonoBehaviour
                     }
                     if (tmpl[0] == null)
                     {
-                        //Transfer money to country
+                        int startIndex = 0;
+                        foreach (BankAccount a in deadperson.bankAccounts)
+                        {
+                            if (!a.accountBlocked)
+                            {
+                                a.TransferMoneyWithoutTaxes(GovermentAccounts.Instance.govAccount, "HS MTRANSFER FROM " + deadperson.ID, a.money);
+                            }
+                            else //else money is going to country black budget and military
+                            {
+                                startIndex++;
+                            }
+
+
+                        }
+                        foreach (Asset a in deadperson.assetAccount.assets)
+                        {
+                            deadperson.assetAccount.TransferAssetWithoutTax(GovermentAccounts.Instance.assetAccount, GovermentAccounts.Instance.govAccount, deadperson.bankAccounts[startIndex], 0, a);
+                        }
                     }
                 }
             }
@@ -112,7 +129,25 @@ public class Family : MonoBehaviour
                         }
                         if (tmpl[0] == null)
                         {
-                            //Transfer money to country
+                            int startIndex = 0;
+                            foreach(BankAccount a in deadperson.bankAccounts)
+                            {
+                                if (!a.accountBlocked)
+                                {
+                                    a.TransferMoneyWithoutTaxes(GovermentAccounts.Instance.govAccount, "HS MTRANSFER FROM " + deadperson.ID, a.money);
+                                }
+                                else //else money is going to country black budget and military
+                                {
+                                    startIndex++;
+                                }
+
+
+                            }
+                            foreach(Asset a in deadperson.assetAccount.assets)
+                            {
+                                deadperson.assetAccount.TransferAssetWithoutTax(GovermentAccounts.Instance.assetAccount, GovermentAccounts.Instance.govAccount, deadperson.bankAccounts[startIndex], 0,a);
+                            }
+
                         }
                     }
                 }
@@ -149,16 +184,134 @@ public class Family : MonoBehaviour
                         }
                         if (tmpl[0] == null)
                         {
-                            //Transfer money to country
+                            int startIndex = 0;
+                            foreach (BankAccount a in deadperson.bankAccounts)
+                            {
+                                if (!a.accountBlocked)
+                                {
+                                    a.TransferMoneyWithoutTaxes(GovermentAccounts.Instance.govAccount, "HS MTRANSFER FROM " + deadperson.ID, a.money);
+                                }
+                                else //else money is going to country black budget and military
+                                {
+                                    startIndex++;
+                                }
+
+
+                            }
+                            foreach (Asset a in deadperson.assetAccount.assets)
+                            {
+                                deadperson.assetAccount.TransferAssetWithoutTax(GovermentAccounts.Instance.assetAccount, GovermentAccounts.Instance.govAccount, deadperson.bankAccounts[startIndex], 0, a);
+                            }
                         }
                     }
                 }
 
             }
         }
+        if (tmpl[0] == null)
+        {
+            return;
+        }
         float percent = 1 / tmpl.Length;
-        //Transfer money and the assets to new owners
+        foreach(BankAccount a in deadperson.bankAccounts)
+        {
+            for (int i = 0;i < tmpl.Length; i++)
+            {
+                int index = 0;
+                foreach(BankAccount b in tmpl[i].bankAccounts)
+                {
+                    if (!b.accountBlocked)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        index++;
+                    }
+                }
+                a.TransferMoneyWithoutTaxes(tmpl[i].bankAccounts[index],"HS MTRANSFER FROM "+deadperson.ID,(int)(a.money*percent));
+            }
 
+        }
+        int split = deadperson.assetAccount.assets.Count;
+        int d = split / tmpl.Length;
+        int r = split % tmpl.Length;
+        int st = 0;
+        foreach(Person p in tmpl)
+        {
+            for(int i=0;i< d; i++)
+            {
+                deadperson.assetAccount.TransferAssetWithoutTax(p.assetAccount, p.bankAccounts[0], deadperson.bankAccounts[0], 0, deadperson.assetAccount.assets[st * 1 + i]);
+                if (i + 1 == d) {
+                    st++;
+                }
+
+            }
+           
+        }
+        for (int j =0;j<r;j++)
+        {
+            deadperson.assetAccount.TransferAssetWithoutTax(tmpl[tmpl.Length - j].assetAccount, tmpl[tmpl.Length - j].bankAccounts[0], deadperson.bankAccounts[0],0, deadperson.assetAccount.assets[split - j]);
+        }
     }
+    public void SplitHeirdomWithTestament(Person deadperson)
+    {
+        Testament t = deadperson.testament;
+        foreach(Person p in t.assetDivide.Keys)
+        {
+            int stI = 0;
+            for(int i = 0; i < p.bankAccounts.Length; i++)
+            {
+                if (p.bankAccounts[i].accountBlocked) {
+                    stI++;
+                }
+                else
+                {
+                    break;
+                }
+
+            }
+            deadperson.assetAccount.TransferAssetWithoutTax(p.assetAccount, p.bankAccounts[stI], deadperson.bankAccounts[0], 0, t.assetDivide[p]);
+        }
+        foreach(Person p in t.moneyDivide.Keys)
+        {
+            int stI = 0;
+            for (int i = 0; i < p.bankAccounts.Length; i++)
+            {
+                if (p.bankAccounts[i].accountBlocked)
+                {
+                    stI++;
+                }
+                else
+                {
+                    break;
+                }
+
+            }
+            int stD = 0;
+            for (int i = 0; i < deadperson.bankAccounts.Length; i++)
+            {
+                if (deadperson.bankAccounts[i].accountBlocked)
+                {
+                    stD++;
+                }
+                else
+                {
+                    break;
+                }
+
+            }
+            if(stD < deadperson.bankAccounts.Length - 1)
+            {
+                break;
+            }
+            if (stI < p.bankAccounts.Length - 1)
+            {
+                deadperson.bankAccounts[stD].TransferMoneyWithoutTaxes(p.bankAccounts[stI], "HS MTRANSFER FROM " + deadperson.ID, (int)t.moneyDivide[p]);
+            }
+           
+        }
+    }
+
 }
 

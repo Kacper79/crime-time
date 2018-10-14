@@ -13,7 +13,7 @@ public class AssetAccount : MonoBehaviour{
 	}
 
 	public void TransferAssetWithoutTax(AssetAccount client,BankAccount cba,BankAccount sba,int price,Asset asset){
-        if (sba.money >= price && sba.accountBlocked == false && haveAccess)
+        if (cba.money >= price && cba.accountBlocked == false && haveAccess)
         {
             if (asset.owner == this.owner)
             {
@@ -47,7 +47,8 @@ public class AssetAccount : MonoBehaviour{
                 client.transferHistories.Add(transferHistory);
                 AssetTransferRegister.Instance.transfers.Add(transferHistory);
                 asset.owner = client.owner;
-
+                sba.money += price;
+                cba.money -= price;
             }
 
         }
@@ -62,7 +63,7 @@ public class AssetAccount : MonoBehaviour{
     {
         AssetTransferTaxLaw law = new AssetTransferTaxLaw();
         int tax = law.CalculateTaxes(asset);
-        if (price+tax >= sba.money && sba.accountBlocked == false && haveAccess)
+        if (price+tax >= cba.money && cba.accountBlocked == false && haveAccess)
         {
             if (asset.owner == this.owner)
             {
@@ -103,7 +104,8 @@ public class AssetAccount : MonoBehaviour{
                 client.transferHistories.Add(transferHistory);
                 AssetTransferRegister.Instance.transfers.Add(transferHistory);
                 asset.owner = client.owner;
-
+                sba.money += price;
+                cba.money -= price;
             }
 
         }
