@@ -80,7 +80,7 @@ public class Family : MonoBehaviour
                         {
                             if (!a.accountBlocked)
                             {
-                                a.TransferMoneyWithoutTaxes(GovermentAccounts.Instance.govAccount, "HS MTRANSFER FROM " + deadperson.ID, a.money);
+                                a.TransferMoneyTaxFree(GovermentAccounts.Instance.govAccount, "HS MTRANSFER FROM " + deadperson.ID, a.money);
                             }
                             else //else money is going to country black budget and military
                             {
@@ -91,7 +91,7 @@ public class Family : MonoBehaviour
                         }
                         foreach (Asset a in deadperson.assetAccount.assets)
                         {
-                            deadperson.assetAccount.TransferAssetWithoutTax(GovermentAccounts.Instance.assetAccount, GovermentAccounts.Instance.govAccount, deadperson.bankAccounts[startIndex], 0, a);
+                            deadperson.assetAccount.TransferAssetTaxFree(GovermentAccounts.Instance.assetAccount, GovermentAccounts.Instance.govAccount, deadperson.bankAccounts[startIndex], 0, a);
                         }
                     }
                 }
@@ -134,7 +134,7 @@ public class Family : MonoBehaviour
                             {
                                 if (!a.accountBlocked)
                                 {
-                                    a.TransferMoneyWithoutTaxes(GovermentAccounts.Instance.govAccount, "HS MTRANSFER FROM " + deadperson.ID, a.money);
+                                    a.TransferMoneyTaxFree(GovermentAccounts.Instance.govAccount, "HS MTRANSFER FROM " + deadperson.ID, a.money);
                                 }
                                 else //else money is going to country black budget and military
                                 {
@@ -145,7 +145,7 @@ public class Family : MonoBehaviour
                             }
                             foreach(Asset a in deadperson.assetAccount.assets)
                             {
-                                deadperson.assetAccount.TransferAssetWithoutTax(GovermentAccounts.Instance.assetAccount, GovermentAccounts.Instance.govAccount, deadperson.bankAccounts[startIndex], 0,a);
+                                deadperson.assetAccount.TransferAssetTaxFree(GovermentAccounts.Instance.assetAccount, GovermentAccounts.Instance.govAccount, deadperson.bankAccounts[startIndex], 0,a);
                             }
 
                         }
@@ -189,7 +189,7 @@ public class Family : MonoBehaviour
                             {
                                 if (!a.accountBlocked)
                                 {
-                                    a.TransferMoneyWithoutTaxes(GovermentAccounts.Instance.govAccount, "HS MTRANSFER FROM " + deadperson.ID, a.money);
+                                    a.TransferMoneyTaxFree(GovermentAccounts.Instance.govAccount, "HS MTRANSFER FROM " + deadperson.ID, a.money);
                                 }
                                 else //else money is going to country black budget and military
                                 {
@@ -200,7 +200,7 @@ public class Family : MonoBehaviour
                             }
                             foreach (Asset a in deadperson.assetAccount.assets)
                             {
-                                deadperson.assetAccount.TransferAssetWithoutTax(GovermentAccounts.Instance.assetAccount, GovermentAccounts.Instance.govAccount, deadperson.bankAccounts[startIndex], 0, a);
+                                deadperson.assetAccount.TransferAssetTaxFree(GovermentAccounts.Instance.assetAccount, GovermentAccounts.Instance.govAccount, deadperson.bankAccounts[startIndex], 0, a);
                             }
                         }
                     }
@@ -229,7 +229,7 @@ public class Family : MonoBehaviour
                         index++;
                     }
                 }
-                a.TransferMoneyWithoutTaxes(tmpl[i].bankAccounts[index],"HS MTRANSFER FROM "+deadperson.ID,(int)(a.money*percent));
+                a.TransferMoneyTaxFree(tmpl[i].bankAccounts[index],"HS MTRANSFER FROM "+deadperson.ID,(int)(a.money*percent));
             }
 
         }
@@ -241,7 +241,7 @@ public class Family : MonoBehaviour
         {
             for(int i=0;i< d; i++)
             {
-                deadperson.assetAccount.TransferAssetWithoutTax(p.assetAccount, p.bankAccounts[0], deadperson.bankAccounts[0], 0, deadperson.assetAccount.assets[st * 1 + i]);
+                deadperson.assetAccount.TransferAssetTaxFree(p.assetAccount, p.bankAccounts[0], deadperson.bankAccounts[0], 0, deadperson.assetAccount.assets[st * 1 + i]);
                 if (i + 1 == d) {
                     st++;
                 }
@@ -251,7 +251,7 @@ public class Family : MonoBehaviour
         }
         for (int j =0;j<r;j++)
         {
-            deadperson.assetAccount.TransferAssetWithoutTax(tmpl[tmpl.Length - j].assetAccount, tmpl[tmpl.Length - j].bankAccounts[0], deadperson.bankAccounts[0],0, deadperson.assetAccount.assets[split - j]);
+            deadperson.assetAccount.TransferAssetTaxFree(tmpl[tmpl.Length - j].assetAccount, tmpl[tmpl.Length - j].bankAccounts[0], deadperson.bankAccounts[0],0, deadperson.assetAccount.assets[split - j]);
         }
     }
     public void SplitHeirdomWithTestament(Person deadperson)
@@ -271,7 +271,7 @@ public class Family : MonoBehaviour
                 }
 
             }
-            deadperson.assetAccount.TransferAssetWithoutTax(p.assetAccount, p.bankAccounts[stI], deadperson.bankAccounts[0], 0, t.assetDivide[p]);
+            deadperson.assetAccount.TransferAssetTaxFree(p.assetAccount, p.bankAccounts[stI], deadperson.bankAccounts[0], 0, t.assetDivide[p]);
         }
         foreach(Person p in t.moneyDivide.Keys)
         {
@@ -307,7 +307,7 @@ public class Family : MonoBehaviour
             }
             if (stI < p.bankAccounts.Length - 1)
             {
-                deadperson.bankAccounts[stD].TransferMoneyWithoutTaxes(p.bankAccounts[stI], "HS MTRANSFER FROM " + deadperson.ID, (int)t.moneyDivide[p]);
+                deadperson.bankAccounts[stD].TransferMoneyTaxFree(p.bankAccounts[stI], "HS MTRANSFER FROM " + deadperson.ID, (int)t.moneyDivide[p]);
             }
            
         }

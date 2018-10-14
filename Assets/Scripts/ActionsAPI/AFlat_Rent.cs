@@ -38,7 +38,34 @@ public class AFlat_Rent : Action
 				if(fmek.owner==PlayerManager.Instance.player){
 					if(fmek.roomNA<fmek.size*8){
 						response = true;
-						Manager.Instance.increaseCash(income);
+                        //Manager.Instance.increaseCash(income);
+                        //Check witch account
+                        int stI = 0;
+                        for(int i =0;i< webJob.client.bankAccounts.Length;i++)
+                        {
+                            if (webJob.client.bankAccounts[i].accountBlocked == true) {
+                                stI++;
+                            }
+                            else
+                            {
+                                break;
+                            }
+
+                        }
+                        int stJ = 0;
+                        for (int i = 0; i < fmek.owner.bankAccounts.Length; i++)
+                        {
+                            if (fmek.owner.bankAccounts[i].accountBlocked == true)
+                            {
+                                stJ++;
+                            }
+                            else
+                            {
+                                break;
+                            }
+
+                        }
+                        webJob.client.bankAccounts[stI].TransferMoneyWithoutTaxes(fmek.owner.bankAccounts[stJ], "AFR MTRANSFER FROM " + webJob.client.ID + " TO " + PlayerManager.Instance.player, webJob.price);
 					}
 				}
 			}else{
@@ -53,9 +80,35 @@ public class AFlat_Rent : Action
 					target = propositions[i];
 					if(target.GetComponent<FlatMechanics>().roomNA<target.GetComponent<FlatMechanics>().size*8){
 						response = true;
-						//Manager.Instance.increaseCash(income);
+                        //Manager.Instance.increaseCash(income);
+                        //Check which account
+                        int stI = 0;
+                        for (int j = 0; j < webJob.client.bankAccounts.Length; j++)
+                        {
+                            if (webJob.client.bankAccounts[j].accountBlocked == true)
+                            {
+                                stI++;
+                            }
+                            else
+                            {
+                                break;
+                            }
 
-						//webJob.client.bankAccounts[0].TransferMoneyWithoutTaxes(target.GetComponent<FlatMechanics>().owner.);
+                        }
+                        int stJ = 0;
+                        for (int k = 0; i < target.GetComponent<FlatMechanics>().owner.bankAccounts.Length; k++)
+                        {
+                            if (target.GetComponent<FlatMechanics>().owner.bankAccounts[k].accountBlocked == true)
+                            {
+                                stJ++;
+                            }
+                            else
+                            {
+                                break;
+                            }
+
+                        }
+                        webJob.client.bankAccounts[stI].TransferMoneyWithoutTaxes(target.GetComponent<FlatMechanics>().owner.bankAccounts[stJ],"AFR MTRANSFER FROM "+webJob.client.ID+" TO "+PlayerManager.Instance.player,webJob.price);
 						break;
 					}
 				}

@@ -69,6 +69,29 @@ public class BankAccount : MonoBehaviour
             return;
         }
     }
+    public void TransferMoneyTaxFree(BankAccount recieve, String reason,int money)
+    {
+
+       
+            MoneyTransferHistory history = new MoneyTransferHistory
+            {
+                sender = this,
+                reciver = recieve,
+                ID = MoneyTransferRegister.Instance.GenerateTransactionID(),
+                money = money,
+                tax = 0,
+                taxPayed = true
+
+            };
+            history.title = reason;
+            bankStatements.Add(history);
+            history.reciver.bankStatements.Add(history);
+            MoneyTransferRegister.Instance.transfers.Add(history);
+            //law.isVioleted = false;
+            this.money -= money;
+            history.reciver.money += money;
+        
+    }
     public void TransferMoneyWithTaxes(BankAccount recieve, String reason, int money)
     {
 		MoneyTransferTaxLaw law = new MoneyTransferTaxLaw();
