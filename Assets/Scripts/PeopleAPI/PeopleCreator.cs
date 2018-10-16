@@ -19,6 +19,7 @@ public class PeopleCreator : MonoBehaviour
 		register.age = random.Next(15, 40);
 		register.age=nowi - register.age;
 		String pn = GenerateName();
+        register.pname = pn;
 		register.IQ = random.Next(1, 100);
 		register.EQ = random.Next(0,250);
 		register.ID = tempID++;

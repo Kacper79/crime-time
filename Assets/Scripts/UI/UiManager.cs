@@ -79,7 +79,7 @@ public class UiManager : MonoBehaviour
 		}
 	}
 	public int power(int n,int e){
-		int r = 1;      
+        int r;      
 		if(e==5){
 			r = n * n * n * n * n;
 		}

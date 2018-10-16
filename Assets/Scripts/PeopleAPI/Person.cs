@@ -85,6 +85,8 @@ public class Person : MonoBehaviour
 					crimeduration = vhoteldays,
 					random = true
 				};
+                PlayerManager.Instance.AddJob(webJob);
+                PlayerManager.Instance.AddAction(action);
 			}
 			else{//its random
 				  //Find object on the scene matching the name.
